@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "blog": "Blog",
+    "packages": "Packages",
+    "hour_pack": "Hour Pack",
+    "clients": "Clients",
+    "contact_us_button": "Contact Us"
+  },
+  "carousel": {
+    "slide1": {
+      "label": "Innovate Faster. Outpace the Competition. Partner With Us."
+    },
+    "slide2": {
+      "label": "Let's Build Something Amazing Together. Get Started Today."
+    },
+    "contacus_btn":{
+      "label":"Contact Us"
+    }
+  },
+  "section2": {
+    "title": "Automation First",
+    "body": "How to Stop Working In Your Business and Start Working On It."
+  },
+  "section3": {
+    "title": "Effortless technology, expert support."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Conócenos",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "packages": "Paquetes",
+    "hour_pack": "Paquete por Horas",
+    "clients": "Clientes",
+    "contact_us_button": "Contáctanos"
+  },
+  "carousel": {
+    "slide1": {
+      "label": "Innove más rápido. Supere a la competencia. Asóciese con nosotros."
+    },
+    "slide2": {
+      "label": "Construyamos algo increíble juntos. Empiece hoy."
+    },
+    "contacus_btn": {
+      "label": "Contactanos"
+    }
+  },
+  "section2": {
+    "title": "Automatización Primero",
+    "body": "Cómo Dejar de Trabajar En Su Negocio y Empezar a Trabajar Para Él."
+  },
+  "section3": {
+    "title": "Tecnología sin esfuerzo, soporte experto."
+  }
+}
