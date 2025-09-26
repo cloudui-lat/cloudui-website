@@ -32,20 +32,26 @@ const Home = () => {
   const carouselTemplate = (item) => {
     return (
       <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
-        <img src={item.itemImageSrc} alt={item.alt} className="w-full h-full object-fill" style={{ height: '95%' }} />
+        <img src={item.itemImageSrc} alt={item.alt} className="w-full h-full object-cover" />
         <div
-          className="absolute top-1/2 -translate-y-1/2 flex flex-col"
-          style={{ left: item.position, transform: 'translate(-50%, -50%)' }}
+          className="absolute top-1/2 -translate-y-1/2 flex flex-col p-4 md:p-0"
+          style={{ left: '50%', transform: 'translate(-50%, -50%)' }}
         >
-          <div className="max-w-md">
+          <div className="max-w-md text-center">
             <p
-              className="font-bold mb-4"
-              style={{ color: item.textColor, fontSize: '34px' }}
+              className="font-bold mb-4 text-2xl md:text-4xl"
+              style={{ color: item.textColor }}
             >
               {t(item.label)}
             </p>
           </div>
-          <Button label={t('carousel.contacus_btn.label')} severity="primary" style={{ fontSize: '28px', color: item.textColor, background: '#6366F1', width: '50%' }} rounded />
+          <Button 
+            label={t('carousel.contacus_btn.label')} 
+            severity="primary" 
+            className="text-lg md:text-2xl w-auto self-center" 
+            style={{ color: item.textColor, background: '#6366F1' }} 
+            rounded 
+          />
         </div>
       </div>
     );
@@ -61,36 +67,35 @@ const Home = () => {
           itemTemplate={carouselTemplate}
           autoplayInterval={7000}
           circular
-          showNavigators={true}
-          showIndicators={true}
+          showNavigators={false}
+          showIndicators={false}
           className="w-full h-full"
         />
       </section>
 
-
-      <section className="h-[25vh] flex flex-row w-full" style={{ background: '#424242' }}>
-        <div className="w-1/2 flex flex-col justify-center text-left p-8">
-          <h2 className="font-bold text-white text-[36px]">{t('section2.title')}</h2>
-          <p className="text-[28px]" style={{ color: 'white' }}>{t('section2.body')}</p>
+      <section className="flex flex-col md:flex-row w-full" style={{ background: '#424242' }}>
+        <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left p-8">
+          <h2 className="font-bold text-white text-2xl md:text-4xl">{t('section2.title')}</h2>
+          <p className="text-xl md:text-2xl" style={{ color: 'white' }}>{t('section2.body')}</p>
         </div>
-        <div className="w-1/2 flex items-center justify-center p-1">
-          <img src={n8n} alt="n8n" className="h-full w-auto object-contain" />
+        <div className="w-full md:w-1/2 flex items-center justify-center p-4">
+          <img src={n8n} alt="n8n" className="h-auto w-1/2 md:w-auto md:h-full object-contain" />
         </div>
       </section>
 
       <section 
-        className="h-[50vh] w-full bg-cover bg-center flex items-center justify-center"
+        className="h-[25vh] md:h-[50vh] w-full bg-cover bg-center flex items-center justify-center"
         style={{ backgroundImage: `url(${banner})` }}
       >
-        <h2 className="text-white text-5xl font-bold"></h2>
+        <h2 className="text-white text-3xl md:text-5xl font-bold text-center p-4"></h2>
       </section>
 
-      <section className="h-[50vh] flex flex-row w-full" style={{ background: '#FFFFFF' }}>
-        <div className="w-1/2 flex items-center justify-center p-1">
-          <DotLottieReact src={support} loop autoplay style={{ height: '400px' }} />
+      <section className="flex flex-col md:flex-row w-full" style={{ background: '#FFFFFF' }}>
+        <div className="w-full md:w-1/2 flex items-center justify-center p-4 order-1 md:order-1">
+          <DotLottieReact src={support} loop autoplay className="h-64 w-64" />
         </div>
-        <div className="w-1/2 flex flex-col justify-center text-left p-8">
-          <h2 className="font-bold text-black text-[36px]">{t('section3.title')}</h2>
+        <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left p-8 order-2 md:order-2">
+          <h2 className="font-bold text-black text-2xl md:text-4xl">{t('section3.title')}</h2>
         </div>
       </section>
     </div>

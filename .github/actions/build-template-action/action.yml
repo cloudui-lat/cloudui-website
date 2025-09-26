@@ -1,0 +1,21 @@
+name: 'build template'
+description: 'build template archive'
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+    - name: Install dependencies
+      run: npm install
+      shell: bash
+    - name: Deploy
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        npm run predeploy
+        npm run deploy
+      shell: bash
