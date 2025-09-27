@@ -41,46 +41,38 @@ const Navbar = () => {
   const items = [
     {
       label: t('nav.home'),
-      icon: 'pi pi-fw pi-home',
-      command: () => { navigate('/'); }
+      icon: 'pi pi-fw pi-home'
     },
     {
       label: t('nav.services'),
       icon: 'pi pi-fw pi-cog',
-      command: () => { navigate('/services'); },
       template: itemRenderer,
       items: [
         {
-          label: t('nav.packages'),
-          command: () => { navigate('/services/packages'); }
+          label: t('nav.packages')
         },
         {
-          label: t('nav.hour_pack'),
-          command: () => { navigate('/services/hour-pack'); }
+          label: t('nav.hour_pack')
         }
       ]
     },
     {
       label: t('nav.about'),
       icon: 'pi pi-fw pi-info-circle',
-      command: () => { navigate('/about'); },
       template: itemRenderer,
       items: [
         {
-          label: t('nav.clients'),
-          command: () => { navigate('/about/clients'); }
+          label: t('nav.clients')
         }
       ]
     },
     {
       label: t('nav.contact'),
-      icon: 'pi pi-fw pi-envelope',
-      command: () => { navigate('/contact'); }
+      icon: 'pi pi-fw pi-envelope'
     },
     {
       label: t('nav.blog'),
-      icon: 'pi pi-fw pi-book',
-      command: () => { navigate('/blog'); }
+      icon: 'pi pi-fw pi-book'
     }
   ];
 

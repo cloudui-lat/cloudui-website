@@ -49,3 +49,21 @@
   z-index: 1000; /* Ensure it stays on top of other content */
   width: 100%;
 }
+
+.bg-responsive {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* Default for small screens */
+}
+
+@media (min-width: 768px) { /* Medium screens */
+  .bg-responsive {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1024px) { /* Large screens */
+  .bg-responsive {
+    background-size: 100% 100%;
+  }
+}
