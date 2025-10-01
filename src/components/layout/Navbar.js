@@ -15,6 +15,7 @@ const Navbar = () => {
   const itemRenderer = (item) => {
     return (
       <a 
+        href='#!'
         className="p-menuitem-link" 
         onMouseEnter={() => setVisibleSubmenu(item.label)}
         onMouseLeave={() => setVisibleSubmenu(null)}
@@ -27,7 +28,7 @@ const Navbar = () => {
           <ul className="p-submenu-list">
             {item.items.map((subItem, index) => (
               <li key={index} className="p-menuitem">
-                <a className="p-menuitem-link" onClick={subItem.command}>
+                <a href='#!' className="p-menuitem-link" onClick={subItem.command}>
                   <span className="p-menuitem-text">{subItem.label}</span>
                 </a>
               </li>
@@ -64,6 +65,7 @@ const Navbar = () => {
       label: t('nav.about'),
       icon: 'pi pi-fw pi-info-circle',
       command: () => { navigate('/about'); },
+      visible: false,
       template: itemRenderer,
       items: [
         {
@@ -80,7 +82,8 @@ const Navbar = () => {
     {
       label: t('nav.blog'),
       icon: 'pi pi-fw pi-book',
-      command: () => { navigate('/blog'); }
+      command: () => { navigate('/blog'); },
+      visible: false
     }
   ];
 

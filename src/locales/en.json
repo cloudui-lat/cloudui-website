@@ -10,22 +10,41 @@
     "clients": "Clients",
     "contact_us_button": "Contact Us"
   },
-  "carousel": {
-    "slide1": {
-      "label": "Innovate Faster. Outpace the Competition. Partner With Us."
-    },
-    "slide2": {
-      "label": "Let's Build Something Amazing Together. Get Started Today."
-    },
-    "contacus_btn":{
-      "label":"Contact Us"
-    }
+  "home": {
+    "main_title": "You Have the Idea. We Write the Code.",
+    "main_subtitle": "We are Cloud UI. The team that builds and automates the app, platform, or website you have in mind. The idea is 100% yours. We just make it happen.",
+    "main_cta": "I Want to Start My Project Today",
+    "argument_title": "Your Idea is Yours (Always).",
+    "argument_text": "We focus on the engineering. Cloud UI does not keep your intellectual property. You are the owner of the idea, the business, and the code. We are the hammer you need to build the structure.",
+    "what_we_do_title": "What We Do (For SMEs, Clear and Concrete)",
+    "who_we_work_for_title": "Who We Work For",
+    "who_we_work_for_text": "We help SMEs, entrepreneurs, and established businesses to digitize and grow.",
+    "how_we_do_it_title": "How We Do It",
+    "how_we_do_it_text": "Your project needs more than a pretty design, it needs an intelligent structure.",
+    "focus_title": "Focus",
+    "focus_item1_title": "Shaped Ideas",
+    "focus_item1_text": "You have the idea, but you lack the structure. We give technical form to your concept to make it viable and scalable.",
+    "focus_item2_title": "Quick Start",
+    "focus_item2_text": "We get your app or platform ready to work from day one. Forget about complexity and start selling or operating.",
+    "focus_item3_title": "Automation",
+    "focus_item3_text": "We integrate automatic processes so that your business does more with less. Save time and staff by making technology work for you.",
+    "final_cta_title": "Don't let your idea stay on napkins. Are you ready to see it working?",
+    "final_cta_button": "Let's Talk About Your Next Big Project"
   },
-  "section2": {
-    "title": "Automation First",
-    "body": "How to Stop Working In Your Business and Start Working On It."
-  },
-  "section3": {
-    "title": "Effortless technology, expert support."
+  "footer": {
+    "contact_title": "Contact",
+    "email": "info@cloudui.lat",
+    "location": "Century Tower 21st Floor, Av. Ricardo J. Alfaro, Panama",
+    "services_title": "Services",
+    "service1": "Software & Mobile Development",
+    "service2": "Cloud Migration",
+    "service3": "Automation (Power Automate & n8n)",
+    "service4": "Custom Websites",
+    "service5": "Digital Transformation Advisory",
+    "service6": "Data Analytics",
+    "links_title": "Links",
+    "social_media_title": "Follow Us",
+    "company_name": "Cloud UI",
+    "copyright": "© 2025 cloudui. All rights reserved."
   }
 }

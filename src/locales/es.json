@@ -10,22 +10,41 @@
     "clients": "Clientes",
     "contact_us_button": "Contáctanos"
   },
-  "carousel": {
-    "slide1": {
-      "label": "Innove más rápido. Supere a la competencia. Asóciese con nosotros."
-    },
-    "slide2": {
-      "label": "Construyamos algo increíble juntos. Empiece hoy."
-    },
-    "contacus_btn": {
-      "label": "Contactanos"
-    }
+  "home": {
+    "main_title": "Tú Pones la Idea. Nosotros Ponemos el Código.",
+    "main_subtitle": "Somos Cloud UI. El equipo que construye y automatiza la app, plataforma o web que tienes en la cabeza. La idea es 100% tuya. Solo nos encargamos de hacerla realidad.",
+    "main_cta": "Quiero Empezar Mi Proyecto Hoy",
+    "argument_title": "Tu Idea es Tuya (Siempre).",
+    "argument_text": "Nos enfocamos en la ingeniería. Cloud UI no se queda con tu propiedad intelectual. Tú eres el dueño de la idea, el negocio y el código. Nosotros somos el martillo que necesitas para construir la estructura.",
+    "what_we_do_title": "Lo Que Hacemos (Para PyMEs, Claro y Concreto)",
+    "who_we_work_for_title": "¿Para Quién Trabajamos?",
+    "who_we_work_for_text": "Ayudamos a PyMEs, emprendedores y negocios establecidos a digitalizarse y crecer.",
+    "how_we_do_it_title": "¿Cómo lo Hacemos?",
+    "how_we_do_it_text": "Tu proyecto necesita más que un diseño bonito, necesita una estructura inteligente.",
+    "focus_title": "Enfoque",
+    "focus_item1_title": "Ideas con Forma",
+    "focus_item1_text": "Tienes la idea, pero te falta la estructura. Damos forma técnica a tu concepto para que sea viable y escalable.",
+    "focus_item2_title": "Puesta en Marcha Rápida",
+    "focus_item2_text": "Dejamos tu app o plataforma lista para trabajar desde el primer día. Olvídate de la complejidad y empieza a vender o a operar.",
+    "focus_item3_title": "Automatización",
+    "focus_item3_text": "Integramos procesos automáticos para que tu negocio haga más con menos. Ahorra tiempo y personal haciendo que la tecnología trabaje por ti.",
+    "final_cta_title": "No dejes que tu idea se quede solo en servilletas. ¿Estás listo para verla funcionando?",
+    "final_cta_button": "Hablemos de Tu Próximo Gran Proyecto"
   },
-  "section2": {
-    "title": "Automatización Primero",
-    "body": "Cómo Dejar de Trabajar En Su Negocio y Empezar a Trabajar Para Él."
-  },
-  "section3": {
-    "title": "Tecnología sin esfuerzo, soporte experto."
+  "footer": {
+    "contact_title": "Contacto",
+    "email": "info@cloudui.lat",
+    "location": "Century Tower Piso 21, Av. Ricardo J. Alfaro, Panamá",
+    "services_title": "Servicios",
+    "service1": "Desarrollo de Software y Móvil",
+    "service2": "Migración a la Nube",
+    "service3": "Automatización (Power Automate & n8n)",
+    "service4": "Sitios Web a Medida",
+    "service5": "Asesoría en Transformación Digital",
+    "service6": "Analítica de Datos",
+    "links_title": "Enlaces",
+    "social_media_title": "Síguenos",
+    "company_name": "Cloud UI",
+    "copyright": "© 2025 cloudui. Todos los derechos reservados."
   }
 }
