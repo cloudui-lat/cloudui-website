@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Políticas — Cloud UI</title>
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.6; color:#111; padding:24px; max-width:920px; margin:0 auto; }
+    header { text-align:center; margin-bottom:24px; }
+    h1,h2,h3 { color:#0b5cf6; }
+    .section { margin-bottom:28px; padding:18px; border-radius:10px; background:#f7f9ff; box-shadow: 0 1px 4px rgba(11,92,246,0.06); }
+    footer { font-size:0.9rem; color:#555; margin-top:30px; text-align:center; }
+    .cookie-banner { position:fixed; left:16px; right:16px; bottom:16px; background:#fff; border:1px solid #ddd; padding:12px; border-radius:10px; display:flex; gap:12px; align-items:center; box-shadow:0 6px 20px rgba(0,0,0,0.08); }
+    .btn { padding:8px 12px; border-radius:8px; border:0; cursor:pointer; font-weight:600; }
+    .btn-primary { background:#0b5cf6; color:white; }
+    .btn-secondary { background:#f2f4f8; color:#111; }
+    a { color:#0b5cf6; text-decoration:none; }
+    @media (max-width:520px){ body{padding:14px} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Políticas y Confidencialidad — Cloud UI</h1>
+    <p>Dominio: <strong>cloudui.lat</strong> · Contacto: <a href="mailto:contacto@cloudui.lat">contacto@cloudui.lat</a></p>
+  </header>
+
+  <nav style="text-align:center; margin-bottom:16px;">
+    <a href="#privacidad">Política de Privacidad</a> ·
+    <a href="#terminos">Términos y Condiciones</a> ·
+    <a href="#cookies">Política de Cookies</a> ·
+    <a href="#confidencialidad">Declaración de Confidencialidad</a>
+  </nav>
+
+  <section id="privacidad" class="section">
+    <h2>Política de Privacidad</h2>
+    <p><strong>Última actualización:</strong> 05 de octubre de 2025</p>
+
+    <p>En <strong>Cloud UI</strong> (cloudui.lat) valoramos tu privacidad. Esta política explica qué datos recogemos cuando usas el sitio y cómo los usamos.</p>
+
+    <h3>Datos que recopilamos</h3>
+    <ul>
+      <li>Datos que tú nos facilitas: nombre, correo electrónico, empresa, teléfono y mensaje a través del formulario de contacto.</li>
+      <li>Datos técnicos automáticamente: dirección IP, información del navegador, páginas visitadas y duración de la visita (registro por herramientas de analítica, si las activas).</li>
+    </ul>
+
+    <h3>Finalidad del tratamiento</h3>
+    <p>Usamos tus datos para:</p>
+    <ul>
+      <li>Responder a solicitudes y cotizaciones.</li>
+      <li>Contactarte para coordinar reuniones o entrega de propuestas.</li>
+      <li>Mejorar el sitio y analizar uso (datos anónimos/agregados).</li>
+    </ul>
+
+    <h3>Cesión a terceros</h3>
+    <p>No vendemos ni alquilamos tus datos. Podemos compartir datos con proveedores necesarios para operar el servicio (hosting, correo electrónico, herramientas de analítica). Si alguna integración requiere tratamiento distinto, lo indicaremos y pediremos tu consentimiento cuando sea necesario.</p>
+
+    <h3>Conservación</h3>
+    <p>Conservamos los datos durante el tiempo necesario para cumplir la finalidad para la que fueron recabados y según obligaciones legales. Si deseas que eliminemos tus datos, escríbenos a <a href="mailto:contacto@cloudui.lat">contacto@cloudui.lat</a>.</p>
+
+    <h3>Tus derechos</h3>
+    <p>Puedes solicitar acceso, rectificación, supresión o portabilidad de tus datos, así como limitar su tratamiento. Para ejercerlos escríbenos a <a href="mailto:contacto@cloudui.lat">contacto@cloudui.lat</a>.</p>
+  </section>
+
+  <section id="terminos" class="section">
+    <h2>Términos y Condiciones</h2>
+    <p>Fecha de entrada en vigor: 05/10/2025</p>
+
+    <p>El acceso y uso de este sitio implica la aceptación de estos términos. Cloud UI proporciona información sobre servicios de diseño web y automatizaciones destinados a pequeñas y medianas empresas. El contenido tiene carácter informativo y puede modificarse sin aviso.</p>
+
+    <h3>Contratación</h3>
+    <p>La contratación de servicios se realiza a través de contacto directo y confirmación por escrito (correo o contrato). Los presupuestos y entregables se detallan y acuerdan en cada proyecto.</p>
+
+    <h3>Propiedad intelectual</h3>
+    <p>Todo contenido del sitio (textos, imágenes, diseños) es propiedad de Cloud UI o de terceros autorizados. Está prohibida la reproducción total o parcial sin autorización expresa.</p>
+
+    <h3>Limitación de responsabilidad</h3>
+    <p>Cloud UI no se responsabiliza por daños directos o indirectos derivados del uso del sitio. Nos esforzamos por mantener la información actualizada, pero no garantizamos ausencia de errores u omisiones.</p>
+
+    <h3>Jurisdicción</h3>
+    <p>Estos términos se rigen por las leyes de la República de Panamá. Cualquier disputa se someterá a los tribunales competentes de Panamá.</p>
+  </section>
+
+  <section id="cookies" class="section">
+    <h2>Política de Cookies</h2>
+
+    <p>Este sitio utiliza cookies para mejorar la experiencia y obtener datos de uso. Las cookies son pequeños archivos que se almacenan en tu dispositivo.</p>
+
+    <h3>Tipos de cookies</h3>
+    <ul>
+      <li><strong>Esenciales:</strong> necesarias para el funcionamiento del sitio.</li>
+      <li><strong>Analíticas:</strong> para medir visitas y comportamiento (ej. Google Analytics).</li>
+      <li><strong>Funcionales/Preferencias:</strong> para recordar idioma o configuraciones.</li>
+    </ul>
+
+    <p>Puedes aceptar o rechazar cookies mediante el aviso de cookies. También puedes gestionar las cookies desde tu navegador (ver documentación del navegador para instrucciones).</p>
+  </section>
+
+  <section id="confidencialidad" class="section">
+    <h2>Declaración de Confidencialidad y Propiedad Intelectual</h2>
+
+    <p>En Cloud UI entendemos que muchas veces nos cuentas ideas o bocetos durante las fases iniciales. Por ello nos comprometemos públicamente:</p>
+    <ul>
+      <li>Las ideas, conceptos y materiales que nos compartas seguirán perteneciendo a su autor original.</li>
+      <li>No reclamaremos derechos sobre la idea ni la registraremos a nuestro nombre.</li>
+      <li>Tratamos la información compartida con carácter confidencial y no la utilizaremos fuera del alcance del proyecto acordado sin autorización previa.</li>
+      <li>Para proyectos que requieran mayor protección, ofrecemos firmar un Acuerdo de Confidencialidad (NDA) antes de la reunión o intercambio de información sensible.</li>
+    </ul>
+
+    <p>Si deseas un NDA antes de nuestra llamada, indícalo en el formulario de contacto o escríbenos a <a href="mailto:info@cloudui.lat">info@cloudui.lat</a>.</p>
+  </section>
+
+  <footer>
+    <p>Cloud UI · cloudui.lat · Oficina en Panamá (atención solo con cita). Contacto: <a href="mailto:info@cloudui.lat">info@cloudui.lat</a></p>
+  </footer>
+
+  <!-- Banner simple de cookies -->
+  <div id="cookieBanner" class="cookie-banner" role="dialog" aria-live="polite" style="display:none;">
+    <div style="flex:1; font-size:0.95rem;">
+      🍪 Usamos cookies para mejorar tu experiencia y analizar el uso del sitio. Puedes aceptar o gestionar tus preferencias.
+    </div>
+    <div style="display:flex; gap:8px;">
+      <button class="btn btn-secondary" onclick="handleCookie('decline')">Rechazar</button>
+      <button class="btn btn-primary" onclick="handleCookie('accept')">Aceptar</button>
+    </div>
+  </div>
+
+  <script>
+    // Simple cookie banner (no analytics blocking integrado).
+    function setLocal(key, val, days=365){ const d=new Date(); d.setTime(d.getTime()+days*24*60*60*1000); document.cookie = key+'='+val+';expires='+d.toUTCString()+';path=/'; }
+    function getLocal(key){ const v=document.cookie.match('(^|;)\\s*'+key+'\\s*=\\s*([^;]+)'); return v ? v.pop() : null; }
+    function handleCookie(action){
+      if(action==='accept'){ setLocal('cloudui_cookies','accepted'); document.getElementById('cookieBanner').style.display='none'; }
+      if(action==='decline'){ setLocal('cloudui_cookies','declined'); document.getElementById('cookieBanner').style.display='none'; }
+    }
+    (function(){
+      var pref = getLocal('cloudui_cookies');
+      if(!pref) document.getElementById('cookieBanner').style.display='flex';
+    })();
+  </script>
+</body>
+</html>
