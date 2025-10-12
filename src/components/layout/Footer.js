@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="grid">
         <div className="col-12 md:col-3">
           <h3>{t('footer.contact_title')}</h3>
-          <p><i className="pi pi-envelope"></i> {t('footer.email')}</p>
+          <p><i className="pi pi-envelope"></i> <a href="mailto:info@cloudui.com">{t('footer.email')}</a></p>
           <p><i className="pi pi-map-marker"></i> {t('footer.location')}</p>
         </div>
         <div className="col-12 md:col-3">

@@ -8,6 +8,8 @@ import 'primeflex/primeflex.css';
 // Import your page components here
 import Home from './pages/Home';
 import Services from './pages/Services';
+import Packages from './pages/Packages';
+import HourPack from './pages/HourPack';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
@@ -20,6 +22,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/packages" element={<Packages />} />
+          <Route path="/services/hour-pack" element={<HourPack />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />

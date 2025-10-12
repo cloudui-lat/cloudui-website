@@ -48,9 +48,12 @@ const Navbar = () => {
     {
       label: t('nav.services'),
       icon: 'pi pi-fw pi-cog',
-      command: () => { navigate('/services'); },
       template: itemRenderer,
       items: [
+        {
+          label: t('nav.services_sub'),
+          command: () => { navigate('/services'); }
+        },
         {
           label: t('nav.packages'),
           command: () => { navigate('/services/packages'); }
