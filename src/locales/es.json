@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Conócenos",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "packages": "Paquetes",
+    "hour_pack": "Paquete por Horas",
+    "clients": "Clientes",
+    "contact_us_button": "Contáctanos"
+  },
+  "home": {
+    "main_title": "Tú Pones la Idea. Nosotros Ponemos el Código.",
+    "main_subtitle": "Somos Cloud UI. El equipo que construye y automatiza la app, plataforma o web que tienes en la cabeza. La idea es 100% tuya. Solo nos encargamos de hacerla realidad.",
+    "main_cta": "Quiero Empezar Mi Proyecto Hoy",
+    "argument_title": "Tu Idea es Tuya (Siempre).",
+    "argument_text": "Nos enfocamos en la ingeniería. Cloud UI no se queda con tu propiedad intelectual. Tú eres el dueño de la idea, el negocio y el código. Nosotros somos el martillo que necesitas para construir la estructura.",
+    "what_we_do_title": "Lo Que Hacemos (Para PyMEs, Claro y Concreto)",
+    "who_we_work_for_title": "¿Para Quién Trabajamos?",
+    "who_we_work_for_text": "Ayudamos a PyMEs, emprendedores y negocios establecidos a digitalizarse y crecer.",
+    "how_we_do_it_title": "¿Cómo lo Hacemos?",
+    "how_we_do_it_text": "Tu proyecto necesita más que un diseño bonito, necesita una estructura inteligente.",
+    "focus_title": "Enfoque",
+    "focus_item1_title": "Ideas con Forma",
+    "focus_item1_text": "Tienes la idea, pero te falta la estructura. Damos forma técnica a tu concepto para que sea viable y escalable.",
+    "focus_item2_title": "Puesta en Marcha Rápida",
+    "focus_item2_text": "Dejamos tu app o plataforma lista para trabajar desde el primer día. Olvídate de la complejidad y empieza a vender o a operar.",
+    "focus_item3_title": "Automatización",
+    "focus_item3_text": "Integramos procesos automáticos para que tu negocio haga más con menos. Ahorra tiempo y personal haciendo que la tecnología trabaje por ti.",
+    "final_cta_title": "No dejes que tu idea se quede solo en servilletas. ¿Estás listo para verla funcionando?",
+    "final_cta_button": "Hablemos de Tu Próximo Gran Proyecto",
+    "mission_tittle":"Misión",
+    "vision_tittle":"Visión",
+    "mission_text": "Brindamos soluciones tecnológicas accesibles a pequeñas y medianas empresas, startups y emprendedores mediante diseño web y software de marca blanca, adaptándonos a sus procesos operativos. Lo hacemos de forma remota, rápida y eficiente, ayudándoles a mejorar su logística, inventario, contabilidad y más.",
+    "vision_text": "Ser el aliado tecnológico preferido por las pymes y emprendedores en Latinoamérica, reconocido por ofrecer herramientas digitales funcionales, asequibles y fáciles de implementar, que transformen la manera en que gestionan sus negocios."
+
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "items": [
+      {
+        "title": "Desarrollo de Software y Móvil",
+        "text": "FinTech y Monederos Digitales: Desarrollo de aplicaciones móviles que ofrecen soluciones de pago digital, microcréditos y servicios bancarios para la gran población sin acceso a servicios bancarios o con acceso limitado a ellos."
+      },
+      {
+        "title": "Migración a la Nube",
+        "text": "Escalabilidad del comercio minorista y electrónico: Migración de los servidores locales de un importante minorista a una infraestructura escalable en la nube (AWS, Azure, GCP) para gestionar picos de tráfico masivos."
+      },
+      {
+        "title": "Automatización(Power Automate & n8n)",
+        "text": "Automatización de procesos de importación/exportación: Creación de flujos de trabajo que extraen automáticamente datos de facturas de envío y listas de empaque para completar formularios complejos de declaración aduanera requeridos por autoridades como la DIAN (Colombia) o el SAT (México)."
+      },
+      {
+        "title": "Sitios Web a Medida",
+        "text": "Mercado de Materias Primas B2B: Desarrollo de un portal seguro que conecte a productores agrícolas (por ejemplo, caficultores, exportadores de fruta) directamente con compradores internacionales, con herramientas para la gestión de contratos, el control de calidad y el seguimiento logístico."
+      },
+      {
+        "title": "Asesoría en Transformación Digital",
+        "text": "Estrategia Omnicanal para Minoristas Tradicionales: Asesoramiento a grandes cadenas familiares de tiendas departamentales sobre cómo integrar el inventario, las operaciones y los programas de fidelización de sus tiendas físicas con una sólida plataforma de comercio electrónico para competir con Mercado Libre y Amazon."
+      },
+      {
+        "title": "Analítica de Datos",
+        "text": "Administración de Base de datos en nube y premisas Experiencia con los gestores top del mercado Base de datos Relacionales Oracle Sql Server MySql Postgres Base de datos No Relacionales MongoDB Amazon DynamoDB Redis Integración y Automatización de datos Implementaciones con Sql Server Integration Services,IBM InfoSphere DataStage, AWS Glue. Análisis, Minería, Visualización de Datos Implementación de metricas y dashboard customizados con Tableau, Metabase y Power BI"
+      }
+    ]
+  },
+  "packages": {
+    "title": "Nuestros Paquetes",
+    "items": [
+      {
+        "title": "Plan Pyme Light",
+        "price": "$750",
+        "features": [
+          "Sitio informativo de 3-5 páginas",
+          "Formulario con autorespuesta",
+          "Soporte 1 mes"
+        ],
+        "cta": "Cotizar"
+      },
+      {
+        "title": "Plan Pyme Avanzado",
+        "price": "$$250-350/mes",
+        "features": [
+          "Sitio web con e-commerce o reservas",
+          "Automatización de contacto + emails",
+          "Integración con pago en línea",
+          "2 meses de soporte"
+        ],
+        "cta": "Cotizar"
+      },
+      {
+        "title": "Plan mensual Full Pyme",
+        "price": "📞",
+        "features": [
+          "Hosting incluido",
+          "Cambios mensuales limitados",
+          "Automatizaciones activas",
+          "Reportes mensuales y soporte técnico"
+        ],
+        "cta": "Contactar"
+      }
+    ],
+    "services_title": "Precios por Servicio",
+    "services_items": [
+      {
+        "title": "Diseño web (sitio básico de 3-5 páginas)",
+        "price": "$400 - $600"
+      },
+      {
+        "title": "Diseño web (con tienda, reservas o blog)",
+        "price": "$700 - $1,500"
+      },
+      {
+        "title": "Mantenimiento y soporte (mensual)",
+        "price": "$50 - $150/mes"
+      },
+      {
+        "title": "Automatizaciones simples (formularios, correos)",
+        "price": "$100 - $300"
+      },
+      {
+        "title": "Automatizaciones complejas (CRM, integraciones)",
+        "price": "$400 - $1,000"
+      }
+    ]
+  },
+  "hour_pack": {
+    "title": "Bolsa de Horas",
+    "items": [
+      {
+        "title": "Básico (Inicio Rápido)",
+        "price": "10 horas incluidas",
+        "features": [
+          "Tarifa por Hora: $55-85 USD",
+          "Validez: 3 meses"
+        ],
+        "cta": "Comprar"
+      },
+      {
+        "title": "Estándar (Crecimiento)",
+        "price": "25 horas incluidas",
+        "features": [
+          "Tarifa por Hora: $50-80 USD",
+          "Validez: 6 meses"
+        ],
+        "cta": "Comprar"
+      },
+      {
+        "title": "Premium (Desarrollo Constante)",
+        "price": "50 horas incluidas",
+        "features": [
+          "Tarifa por Hora: $45-75 USD",
+          "Validez: 12 meses"
+        ],
+        "cta": "Comprar"
+      }
+    ]
+  },
+  "footer": {
+    "contact_title": "Contacto",
+    "email": "info@cloudui.lat",
+    "location": "Century Tower Piso 4, Av. Ricardo J. Alfaro, Panamá",
+    "services_title": "Servicios",
+    "service1": "Desarrollo de Software y Móvil",
+    "service2": "Migración a la Nube",
+    "service3": "Automatización (Power Automate & n8n)",
+    "service4": "Sitios Web a Medida",
+    "service5": "Asesoría en Transformación Digital",
+    "service6": "Analítica de Datos",
+    "links_title": "Enlaces",
+    "social_media_title": "Síguenos",
+    "company_name": "Cloud UI",
+    "copyright": "© 2025 cloudui. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "blog": "Blog",
+    "packages": "Packages",
+    "hour_pack": "Hour Pack",
+    "clients": "Clients",
+    "contact_us_button": "Contact Us"
+  },
+  "home": {
+    "main_title": "You Have the Idea. We Write the Code.",
+    "main_subtitle": "We are Cloud UI. The team that builds and automates the app, platform, or website you have in mind. The idea is 100% yours. We just make it happen.",
+    "main_cta": "I Want to Start My Project Today",
+    "argument_title": "Your Idea is Yours (Always).",
+    "argument_text": "We focus on the engineering. Cloud UI does not keep your intellectual property. You are the owner of the idea, the business, and the code. We are the hammer you need to build the structure.",
+    "what_we_do_title": "What We Do (For SMEs, Clear and Concrete)",
+    "who_we_work_for_title": "Who We Work For",
+    "who_we_work_for_text": "We help SMEs, entrepreneurs, and established businesses to digitize and grow.",
+    "how_we_do_it_title": "How We Do It",
+    "how_we_do_it_text": "Your project needs more than a pretty design, it needs an intelligent structure.",
+    "focus_title": "Focus",
+    "focus_item1_title": "Shaped Ideas",
+    "focus_item1_text": "You have the idea, but you lack the structure. We give technical form to your concept to make it viable and scalable.",
+    "focus_item2_title": "Quick Start",
+    "focus_item2_text": "We get your app or platform ready to work from day one. Forget about complexity and start selling or operating.",
+    "focus_item3_title": "Automation",
+    "focus_item3_text": "We integrate automatic processes so that your business does more with less. Save time and staff by making technology work for you.",
+    "final_cta_title": "Don't let your idea stay on napkins. Are you ready to see it working?",
+    "final_cta_button": "Let's Talk About Your Next Big Project",
+    "mission_tittle":"Mission",
+    "vision_tittle":"Vision",
+    "mission_text": "We provide affordable technology solutions to small and medium-sized businesses, startups, and entrepreneurs through web design and white-label software, adapting to their operational processes. We do this remotely, quickly, and efficiently, helping them improve their logistics, inventory, accounting, and more.",
+    "vision_text": "To be the preferred technology partner for SMEs and entrepreneurs in Latin America, recognized for offering functional, affordable, and easy-to-implement digital tools that transform the way they manage their businesses."
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "title": "Software & Mobile Development",
+        "text": "FinTech and Digital Wallets: Development of mobile applications that offer digital payment solutions, microcredits, and banking services for the large population without access to banking services or with limited access to them."
+      },
+      {
+        "title": "Cloud Migration",
+        "text": "Retail and e-commerce scalability: Migration of a major retailer's on-premise servers to a scalable cloud infrastructure (AWS, Azure, GCP) to handle massive traffic spikes."
+      },
+      {
+        "title": "Automation(Power Automate & n8n)",
+        "text": "Import/export process automation: Creation of workflows that automatically extract data from shipping invoices and packing lists to complete complex customs declaration forms required by authorities such as DIAN (Colombia) or SAT (Mexico)."
+      },
+      {
+        "title": "Custom Websites",
+        "text": "B2B Commodities Marketplace: Development of a secure portal that connects agricultural producers (e.g., coffee growers, fruit exporters) directly with international buyers, with tools for contract management, quality control, and logistics tracking."
+      },
+      {
+        "title": "Digital Transformation Advisory",
+        "text": "Omnichannel Strategy for Traditional Retailers: Advising large family-owned department store chains on how to integrate their physical store inventory, operations, and loyalty programs with a robust e-commerce platform to compete with Mercado Libre and Amazon."
+      },
+      {
+        "title": "Data Analytics",
+        "text": "Cloud and on-premise database administration. Experience with top market managers. Relational databases: Oracle, SQL Server, MySql, Postgres. NoSQL databases: MongoDB, Amazon DynamoDB, Redis. Data integration and automation: Implementations with SQL Server Integration Services, IBM InfoSphere DataStage, AWS Glue. Data analysis, mining, and visualization: Implementation of custom metrics and dashboards with Tableau, Metabase, and Power BI."
+      }
+    ]
+  },
+  "packages": {
+    "title": "Our Packages",
+    "items": [
+      {
+        "title": "Light SME Plan",
+        "price": "$750",
+        "features": [
+          "3-5 page informational site",
+          "Form with auto-reply",
+          "1 month support"
+        ],
+        "cta": "Get a Quote"
+      },
+      {
+        "title": "Advanced SME Plan",
+        "price": "$250-350/mes",
+        "features": [
+          "Website with e-commerce or reservations",
+          "Contact automation + emails",
+          "Online payment integration",
+          "2 months support"
+        ],
+        "cta": "Get a Quote"
+      },
+      {
+        "title": "Full SME Monthly Plan",
+        "price": "📞",
+        "features": [
+          "Hosting included",
+          "Limited monthly changes",
+          "Active automations",
+          "Monthly reports and technical support"
+        ],
+        "cta": "Contact Us"
+      }
+    ],
+    "services_title": "Pricing per Service",
+    "services_items": [
+      {
+        "title": "Web design (basic 3-5 page site)",
+        "price": "$400 - $600"
+      },
+      {
+        "title": "Web design (with store, reservations or blog)",
+        "price": "$700 - $1,500"
+      },
+      {
+        "title": "Maintenance and support (monthly)",
+        "price": "$50 - $150/month"
+      },
+      {
+        "title": "Simple automations (forms, emails)",
+        "price": "$100 - $300"
+      },
+      {
+        "title": "Complex automations (CRM, integrations)",
+        "price": "$400 - $1,000"
+      }
+    ]
+  },
+  "hour_pack": {
+    "title": "Hour Packs",
+    "items": [
+      {
+        "title": "Basic (Quick Start)",
+        "price": "10 hours included",
+        "features": [
+          "Hourly Rate: $55-85 USD",
+          "Validity: 3 months"
+        ],
+        "cta": "Buy Now"
+      },
+      {
+        "title": "Standard (Growth)",
+        "price": "25 hours included",
+        "features": [
+          "Hourly Rate: $50-80 USD",
+          "Validity: 6 months"
+        ],
+        "cta": "Buy Now"
+      },
+      {
+        "title": "Premium (Constant Development)",
+        "price": "50 hours included",
+        "features": [
+          "Hourly Rate: $45-75 USD",
+          "Validity: 12 months"
+        ],
+        "cta": "Buy Now"
+      }
+    ]
+  },
+  "footer": {
+    "contact_title": "Contact",
+    "email": "info@cloudui.lat",
+    "location": "Century Tower 4th Floor, Av. Ricardo J. Alfaro, Panama",
+    "services_title": "Services",
+    "service1": "Software & Mobile Development",
+    "service2": "Cloud Migration",
+    "service3": "Automation (Power Automate & n8n)",
+    "service4": "Custom Websites",
+    "service5": "Digital Transformation Advisory",
+    "service6": "Data Analytics",
+    "links_title": "Links",
+    "social_media_title": "Follow Us",
+    "company_name": "Cloud UI",
+    "copyright": "© 2025 cloudui. All rights reserved."
+  }
+}

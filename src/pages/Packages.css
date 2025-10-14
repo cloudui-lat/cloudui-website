@@ -1,0 +1,69 @@
+.packages-container {
+    --primary-color: #60B7FF;
+    --secondary-color: #6C63FF;
+    --accent-color: #FD9456;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.packages-section {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 3rem 1rem;
+}
+
+.packages-title {
+    font-weight: bolder;
+    font-size: 1.725rem;
+    color: var(--text-color);
+}
+
+.package-card {
+    margin-bottom: 1rem;
+    animation: fadeInUp 1s;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.package-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.package-card .price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin: 1rem 0;
+}
+
+.package-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.package-card ul li {
+    margin-bottom: 0.5rem;
+}
+
+.package-card .p-button {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.package-card .p-button:hover {
+    background-color: #E87C44;
+    border-color: #E87C44;
+}
+
+@media (max-width: 768px) {
+    .packages-container .grid .col-12.md\:col-4 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
