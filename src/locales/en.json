@@ -2,7 +2,6 @@
   "nav": {
     "home": "Home",
     "services": "Services",
-    "services_sub": "All Services",
     "about": "About Us",
     "contact": "Contact",
     "blog": "Blog",
@@ -48,7 +47,7 @@
         "text": "Retail and e-commerce scalability: Migration of a major retailer's on-premise servers to a scalable cloud infrastructure (AWS, Azure, GCP) to handle massive traffic spikes."
       },
       {
-        "title": "Automation (Power Automate & n8n)",
+        "title": "Automation(Power Automate & n8n)",
         "text": "Import/export process automation: Creation of workflows that automatically extract data from shipping invoices and packing lists to complete complex customs declaration forms required by authorities such as DIAN (Colombia) or SAT (Mexico)."
       },
       {
