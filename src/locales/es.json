@@ -2,7 +2,6 @@
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
-    "services_sub": "Todos los Servicios",
     "about": "Conócenos",
     "contact": "Contacto",
     "blog": "Blog",
@@ -49,7 +48,7 @@
         "text": "Escalabilidad del comercio minorista y electrónico: Migración de los servidores locales de un importante minorista a una infraestructura escalable en la nube (AWS, Azure, GCP) para gestionar picos de tráfico masivos."
       },
       {
-        "title": "Automatización (Power Automate & n8n)",
+        "title": "Automatización(Power Automate & n8n)",
         "text": "Automatización de procesos de importación/exportación: Creación de flujos de trabajo que extraen automáticamente datos de facturas de envío y listas de empaque para completar formularios complejos de declaración aduanera requeridos por autoridades como la DIAN (Colombia) o el SAT (México)."
       },
       {

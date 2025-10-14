@@ -2,10 +2,11 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
+import { ScrollTop } from 'primereact/scrolltop';
 import './Packages.css';
 
 const Packages = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const packages = t('packages.items', { returnObjects: true });
   const services = t('packages.services_items', { returnObjects: true });
 
@@ -23,7 +24,7 @@ const Packages = () => {
                     <li key={i}>{feature}</li>
                   ))}
                 </ul>
-                <Button label={pkg.cta} className="p-button-lg p-2" rounded />
+                <Button label={pkg.cta} className="p-button-lg p-2" rounded onClick={() => window.open(i18n.language === 'es' ? 'https://wa.link/jpqfat' : 'https://wa.link/gzmbhn', '_blank')} />
               </Card>
             </div>
           ))}
@@ -42,6 +43,7 @@ const Packages = () => {
           ))}
         </div>
       </section>
+      <ScrollTop />
     </div>
   );
 };

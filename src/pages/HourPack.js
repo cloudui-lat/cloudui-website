@@ -5,7 +5,7 @@ import { Button } from 'primereact/button';
 import './HourPack.css';
 
 const HourPack = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const hourPacks = t('hour_pack.items', { returnObjects: true });
 
   return (
@@ -22,7 +22,7 @@ const HourPack = () => {
                     <li key={i}>{feature}</li>
                   ))}
                 </ul>
-                <Button label={pack.cta} className="p-button-lg p-2" rounded/>
+                <Button label={pack.cta} className="p-button-lg p-2" rounded onClick={() => window.open(i18n.language === 'es' ? 'https://wa.link/jpqfat' : 'https://wa.link/gzmbhn', '_blank')} />
               </Card>
             </div>
           ))}
