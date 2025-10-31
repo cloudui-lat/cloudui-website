@@ -101,44 +101,11 @@ const Navbar = () => {
     }
   };
 
-  const [selectedContactMethod, setSelectedContactMethod] = useState(null);
-
-    const contactOptions = [
-        { label: '', value: 'whatsapp', icon: 'pi pi-whatsapp' },
-        { label: '', value: 'form', icon: 'pi pi-file-edit' }
-    ];
-
-    const handleContactSelection = (e) => {
-        const selectedValue = e.value;
-        setSelectedContactMethod(selectedValue);
-
-        if (selectedValue === 'whatsapp') {
-            window.open(i18n.language === 'es' ? 'https://wa.link/jpqfat' : 'https://wa.link/gzmbhn', '_blank');
-        } else if (selectedValue === 'form') {
-            window.open('https://forms.gle/FrSYGdgbRD9WU9FF6', '_blank');
-        }
-    };
-
-    const contactItemTemplate = (option) => {
-        return (
-            <div className="p-d-flex p-ai-center"> {/* Use flexbox for icon and label if desired */}
-                <i className={option.icon} style={{ marginRight: '.5em' }}></i>
-                <span>{option.label}</span>
-            </div>
-        );
-    };
-
-
+  
   const start = <img alt="logo" src={logo} style={{ height: '60px', width: '60px' }} className="p-mr-2"></img>;
   const end = (
     <div className="flex align-items-center gap-2">
-      <SelectButton
-            value={selectedContactMethod}
-            options={contactOptions}
-            onChange={handleContactSelection}
-            itemTemplate={contactItemTemplate}
-            optionLabel="label" // Specifies which property of the option object to use as the label
-        />
+      
       <SelectButton 
         value={i18n.language} 
         options={languageOptions} 

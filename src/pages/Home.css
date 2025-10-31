@@ -7,14 +7,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Image Placeholder */
-.image-placeholder {
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
 .image-placeholder-small {
     background-color: #ccc;
     width: 100%;
@@ -25,8 +17,8 @@
 
 /* Section 1: Main Title */
 .main-title-section {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: white;
+    color: var(--text-color);
     animation: fadeIn 1s;
 }
 
@@ -39,19 +31,10 @@
     font-size: 1.2rem;
 }
 
-.main-cta-button.p-button-outlined {
+.home-cta-button {
+    background-color: #E87C44;
+    border-color: #E87C44;
     color: white;
-    border-color: white;
-}
-
-.main-cta-button.p-button-outlined:hover {
-    background-color: white;
-    color: var(--primary-color);
-}
-
-.main-cta-button .p-button-label {
-    padding: 2px;
-    font-size: 1.575rem;
 }
 
 /* Section 2: The Main Argument */

@@ -5,7 +5,7 @@ import { Card } from 'primereact/card';
 import { Divider } from 'primereact/divider';
 import { ScrollTop } from 'primereact/scrolltop';
 import './Home.css';
-import Image7 from '../assets/7.png';
+import logo from '../assets/logo.png';
 import Image4 from '../assets/4.png';
 import n8n from '../assets/n8n.png';
 import quickstart from '../assets/quickstart.png';
@@ -28,17 +28,17 @@ const Home = () => {
         <div className="col-12 md:col-6 flex flex-column justify-content-center align-items-center">
           <h1 className="main-title">{t('home.main_title')}</h1>
           <p className="main-subtitle p-3">{t('home.main_subtitle')}</p>
-          <Button label={t('home.main_cta')} className="p-button-lg p-button-outlined mt-3 main-cta-button" />
+          <Button label={t('home.main_cta')} className="p-button-lg p-2 mt-3 home-cta-button" rounded onClick={() => window.open('https://forms.gle/FrSYGdgbRD9WU9FF6', '_blank')} />
         </div>
         <div className="col-12 md:col-6">
-          <img src={Image7} alt="Cloud UI" className="image-placeholder" />
+          <img src={logo} alt="Cloud UI" />
         </div>
       </section>
 
       {/* Section 2: The Main Argument */}
       <section className="main-argument-section p-5 grid">
         <div className="col-12 md:col-6">
-          <img src={Image4} alt="Cloud UI" className="image-placeholder" />
+          <img src={Image4} alt="Cloud UI" />
         </div>
         <div className="col-12 md:col-6 flex flex-column justify-content-center">
           <Card title={t('home.argument_title')} className="argument-card">
@@ -97,17 +97,17 @@ const Home = () => {
           {services.map((service, index) => (
             <div className="col-12 md:col-4" key={index}>
               <Card title={service.title} className="service-card">
-                {service.title === 'Data Analytics' ? (
+                {service.imageKey === 'data_analytics' ? (
                   <img src={analyticsDashboard} alt="Data Analytics" className="image-placeholder-small" />
-                ) : service.title === 'Automation(Power Automate & n8n)' ? (
+                ) : service.imageKey === 'automation' ? (
                   <img src={automation} alt="Automation" className="image-placeholder-small" />
-                ) : service.title === 'Cloud Migration' ? (
+                ) : service.imageKey === 'cloud_migration' ? (
                   <img src={cloudmigration} alt="Cloud Migration" className="image-placeholder-small" />
-                ) : service.title === 'Software & Mobile Development' ? (
+                ) : service.imageKey === 'software_mobile_development' ? (
                   <img src={webmobdev} alt="Software & Mobile Development" className="image-placeholder-small" />
-                ) : service.title === 'Digital Transformation Advisory' ? (
+                ) : service.imageKey === 'digital_transformation_advisory' ? (
                   <img src={dta} alt="Digital Transformation Advisory" className="image-placeholder-small" />
-                ) : service.title === 'Custom Websites' ? (
+                ) : service.imageKey === 'custom_websites' ? (
                   <img src={b2b} alt="Custom Websites" className="image-placeholder-small" />
                 ) : (
                   <div className="image-placeholder-small"></div>
@@ -140,11 +140,11 @@ const Home = () => {
       {/* Section 4: Final Call to Action */}
       <section className="final-cta-section text-center p-5">
         <h2>{t('home.final_cta_title')}</h2>
-        <Button label={t('home.final_cta_button')} className="p-button-lg p-button-outlined p-button-success mt-3 final-cta-button" />
+        <Button label={t('home.final_cta_button')} className="p-button-lg p-button-outlined p-button-success mt-3 final-cta-button" onClick={() => window.open('https://forms.gle/FrSYGdgbRD9WU9FF6', '_blank')} />
       </section>
 
 
-      <ScrollTop />
+      <ScrollTop className="scroll-top-left" />
     </div>
   );
 };

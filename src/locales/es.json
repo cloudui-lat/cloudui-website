@@ -41,27 +41,33 @@
     "items": [
       {
         "title": "Desarrollo de Software y Móvil",
-        "text": "FinTech y Monederos Digitales: Desarrollo de aplicaciones móviles que ofrecen soluciones de pago digital, microcréditos y servicios bancarios para la gran población sin acceso a servicios bancarios o con acceso limitado a ellos."
+        "text": "FinTech y Monederos Digitales: Desarrollo de aplicaciones móviles que ofrecen soluciones de pago digital, microcréditos y servicios bancarios para la gran población sin acceso a servicios bancarios o con acceso limitado a ellos.",
+        "imageKey": "software_mobile_development"
       },
       {
         "title": "Migración a la Nube",
-        "text": "Escalabilidad del comercio minorista y electrónico: Migración de los servidores locales de un importante minorista a una infraestructura escalable en la nube (AWS, Azure, GCP) para gestionar picos de tráfico masivos."
+        "text": "Escalabilidad del comercio minorista y electrónico: Migración de los servidores locales de un importante minorista a una infraestructura escalable en la nube (AWS, Azure, GCP) para gestionar picos de tráfico masivos.",
+        "imageKey": "cloud_migration"
       },
       {
         "title": "Automatización(Power Automate & n8n)",
-        "text": "Automatización de procesos de importación/exportación: Creación de flujos de trabajo que extraen automáticamente datos de facturas de envío y listas de empaque para completar formularios complejos de declaración aduanera requeridos por autoridades como la DIAN (Colombia) o el SAT (México)."
+        "text": "Automatización de procesos de importación/exportación: Creación de flujos de trabajo que extraen automáticamente datos de facturas de envío y listas de empaque para completar formularios complejos de declaración aduanera requeridos por autoridades como la DIAN (Colombia) o el SAT (México).",
+        "imageKey": "automation"
       },
       {
         "title": "Sitios Web a Medida",
-        "text": "Mercado de Materias Primas B2B: Desarrollo de un portal seguro que conecte a productores agrícolas (por ejemplo, caficultores, exportadores de fruta) directamente con compradores internacionales, con herramientas para la gestión de contratos, el control de calidad y el seguimiento logístico."
+        "text": "Mercado de Materias Primas B2B: Desarrollo de un portal seguro que conecte a productores agrícolas (por ejemplo, caficultores, exportadores de fruta) directamente con compradores internacionales, con herramientas para la gestión de contratos, el control de calidad y el seguimiento logístico.",
+        "imageKey": "custom_websites"
       },
       {
         "title": "Asesoría en Transformación Digital",
-        "text": "Estrategia Omnicanal para Minoristas Tradicionales: Asesoramiento a grandes cadenas familiares de tiendas departamentales sobre cómo integrar el inventario, las operaciones y los programas de fidelización de sus tiendas físicas con una sólida plataforma de comercio electrónico para competir con Mercado Libre y Amazon."
+        "text": "Estrategia Omnicanal para Minoristas Tradicionales: Asesoramiento a grandes cadenas familiares de tiendas departamentales sobre cómo integrar el inventario, las operaciones y los programas de fidelización de sus tiendas físicas con una sólida plataforma de comercio electrónico para competir con Mercado Libre y Amazon.",
+        "imageKey": "digital_transformation_advisory"
       },
       {
         "title": "Analítica de Datos",
-        "text": "Administración de Base de datos en nube y premisas Experiencia con los gestores top del mercado Base de datos Relacionales Oracle Sql Server MySql Postgres Base de datos No Relacionales MongoDB Amazon DynamoDB Redis Integración y Automatización de datos Implementaciones con Sql Server Integration Services,IBM InfoSphere DataStage, AWS Glue. Análisis, Minería, Visualización de Datos Implementación de metricas y dashboard customizados con Tableau, Metabase y Power BI"
+        "text": "Administración de Base de datos en nube y premisas Experiencia con los gestores top del mercado Base de datos Relacionales Oracle Sql Server MySql Postgres Base de datos No Relacionales MongoDB Amazon DynamoDB Redis Integración y Automatización de datos Implementaciones con Sql Server Integration Services,IBM InfoSphere DataStage, AWS Glue. Análisis, Minería, Visualización de Datos Implementación de metricas y dashboard customizados con Tableau, Metabase y Power BI",
+        "imageKey": "data_analytics"
       }
     ]
   },
@@ -172,5 +178,11 @@
     "social_media_title": "Síguenos",
     "company_name": "Cloud UI",
     "copyright": "© 2025 cloudui. Todos los derechos reservados."
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "content": "Este sitio utiliza cookies para mejorar la experiencia y obtener datos de uso. Las cookies son pequeños archivos que se almacenan en tu dispositivo.\n\nTipos de cookies\n- Esenciales: necesarias para el funcionamiento del sitio.\n- Analíticas: para medir visitas y comportamiento (ej. Google Analytics).\n- Funcionales/Preferencias: para recordar idioma o configuraciones.\n\nPuedes aceptar o rechazar cookies mediante el aviso de cookies. También puedes gestionar las cookies desde tu navegador (ver documentación del navegador para instrucciones).",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
   }
 }

@@ -12,7 +12,7 @@
   },
   "home": {
     "main_title": "You Have the Idea. We Write the Code.",
-    "main_subtitle": "We are Cloud UI. The team that builds and automates the app, platform, or website you have in mind. The idea is 100% yours. We just make it happen.",
+    "main_subtitle": "We are Cloud UI. The team that builds and automates the app, platform, or website you have in mind. The idea is 100% yours. We just take care of making it a reality.",
     "main_cta": "I Want to Start My Project Today",
     "argument_title": "Your Idea is Yours (Always).",
     "argument_text": "We focus on the engineering. Cloud UI does not keep your intellectual property. You are the owner of the idea, the business, and the code. We are the hammer you need to build the structure.",
@@ -40,27 +40,33 @@
     "items": [
       {
         "title": "Software & Mobile Development",
-        "text": "FinTech and Digital Wallets: Development of mobile applications that offer digital payment solutions, microcredits, and banking services for the large population without access to banking services or with limited access to them."
+        "text": "FinTech and Digital Wallets: Development of mobile applications that offer digital payment solutions, microcredits, and banking services for the large population without access to banking services or with limited access to them.",
+        "imageKey": "software_mobile_development"
       },
       {
         "title": "Cloud Migration",
-        "text": "Retail and e-commerce scalability: Migration of a major retailer's on-premise servers to a scalable cloud infrastructure (AWS, Azure, GCP) to handle massive traffic spikes."
+        "text": "Retail and e-commerce scalability: Migration of a major retailer's on-premise servers to a scalable cloud infrastructure (AWS, Azure, GCP) to handle massive traffic spikes.",
+        "imageKey": "cloud_migration"
       },
       {
         "title": "Automation(Power Automate & n8n)",
-        "text": "Import/export process automation: Creation of workflows that automatically extract data from shipping invoices and packing lists to complete complex customs declaration forms required by authorities such as DIAN (Colombia) or SAT (Mexico)."
+        "text": "Import/export process automation: Creation of workflows that automatically extract data from shipping invoices and packing lists to complete complex customs declaration forms required by authorities such as DIAN (Colombia) or SAT (Mexico).",
+        "imageKey": "automation"
       },
       {
         "title": "Custom Websites",
-        "text": "B2B Commodities Marketplace: Development of a secure portal that connects agricultural producers (e.g., coffee growers, fruit exporters) directly with international buyers, with tools for contract management, quality control, and logistics tracking."
+        "text": "B2B Commodities Marketplace: Development of a secure portal that connects agricultural producers (e.g., coffee growers, fruit exporters) directly with international buyers, with tools for contract management, quality control, and logistics tracking.",
+        "imageKey": "custom_websites"
       },
       {
         "title": "Digital Transformation Advisory",
-        "text": "Omnichannel Strategy for Traditional Retailers: Advising large family-owned department store chains on how to integrate their physical store inventory, operations, and loyalty programs with a robust e-commerce platform to compete with Mercado Libre and Amazon."
+        "text": "Omnichannel Strategy for Traditional Retailers: Advising large family-owned department store chains on how to integrate their physical store inventory, operations, and loyalty programs with a robust e-commerce platform to compete with Mercado Libre and Amazon.",
+        "imageKey": "digital_transformation_advisory"
       },
       {
         "title": "Data Analytics",
-        "text": "Cloud and on-premise database administration. Experience with top market managers. Relational databases: Oracle, SQL Server, MySql, Postgres. NoSQL databases: MongoDB, Amazon DynamoDB, Redis. Data integration and automation: Implementations with SQL Server Integration Services, IBM InfoSphere DataStage, AWS Glue. Data analysis, mining, and visualization: Implementation of custom metrics and dashboards with Tableau, Metabase, and Power BI."
+        "text": "Cloud and on-premise database administration. Experience with top market managers. Relational databases: Oracle, SQL Server, MySql, Postgres. NoSQL databases: MongoDB, Amazon DynamoDB, Redis. Data integration and automation: Implementations with SQL Server Integration Services, IBM InfoSphere DataStage, AWS Glue. Data analysis, mining, and visualization: Implementation of custom metrics and dashboards with Tableau, Metabase, and Power BI.",
+        "imageKey": "data_analytics"
       }
     ]
   },
@@ -171,5 +177,11 @@
     "social_media_title": "Follow Us",
     "company_name": "Cloud UI",
     "copyright": "© 2025 cloudui. All rights reserved."
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "content": "This site uses cookies to improve the experience and obtain usage data. Cookies are small files that are stored on your device.\n\nTypes of cookies\n- Essential: necessary for the operation of the site.\n- Analytics: to measure visits and behavior (e.g. Google Analytics).\n- Functional/Preferences: to remember language or settings.\n\nYou can accept or reject cookies through the cookie notice. You can also manage cookies from your browser (see your browser's documentation for instructions).",
+    "accept": "Accept",
+    "reject": "Reject"
   }
 }
