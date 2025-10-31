@@ -43,7 +43,7 @@ const Packages = () => {
           ))}
         </div>
       </section>
-      <ScrollTop />
+      <ScrollTop className="scroll-top-left" />
     </div>
   );
 };

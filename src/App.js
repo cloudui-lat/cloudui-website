@@ -13,11 +13,13 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import Layout from './components/layout/Layout';
+import CookieModal from './components/layout/CookieModal';
 
 function App() {
   return (
     <Router>
       <Layout>
+        <CookieModal />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services/packages" element={<Packages />} />
