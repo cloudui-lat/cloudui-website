@@ -21,7 +21,7 @@ const Navbar = () => {
         onMouseLeave={() => setVisibleSubmenu(null)}
         onClick={item.command}
       >
-        <span className={item.icon} />
+        
         <span className="p-menuitem-text">{item.label}</span>
         {item.items && <span className="p-submenu-icon pi pi-angle-down" />}
         {item.items && visibleSubmenu === item.label && (
@@ -42,12 +42,10 @@ const Navbar = () => {
   const items = [
     {
       label: t('nav.home'),
-      icon: 'pi pi-fw pi-home',
       command: () => { navigate('/'); }
     },
     {
       label: t('nav.services'),
-      icon: 'pi pi-fw pi-cog',
       template: itemRenderer,
       items: [
         {
@@ -62,7 +60,6 @@ const Navbar = () => {
     },
     {
       label: t('nav.about'),
-      icon: 'pi pi-fw pi-info-circle',
       command: () => { navigate('/about'); },
       visible: false,
       template: itemRenderer,
@@ -75,12 +72,10 @@ const Navbar = () => {
     },
     {
       label: t('nav.contact'),
-      icon: 'pi pi-fw pi-envelope',
       url: 'mailto:info@cloudui.lat'
     },
     {
       label: t('nav.blog'),
-      icon: 'pi pi-fw pi-book',
       command: () => { navigate('/blog'); },
       visible: false
     }
@@ -121,4 +116,16 @@ const Navbar = () => {
   );
 };
 
+
 export default Navbar;
+
+const styles = `
+#main-navbar .p-menuitem-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+`;
+
+const styleSheet = document.createElement("style");
+styleSheet.innerText = styles;
+document.head.appendChild(styleSheet);

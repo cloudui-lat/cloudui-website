@@ -11,8 +11,8 @@
     "contact_us_button": "Contact Us"
   },
   "home": {
-    "main_title": "You Have the Idea. We Write the Code.",
-    "main_subtitle": "We are Cloud UI. The team that builds and automates the app, platform, or website you have in mind. The idea is 100% yours. We just take care of making it a reality.",
+    "main_title": "Your SME idea, made real.",
+    "main_subtitle": "At Cloud UI, we bring your ideas to life. We create, design, and automate custom digital platforms. We respect your intellectual property and build intelligent structures that drive your business growth.",
     "main_cta": "I Want to Start My Project Today",
     "argument_title": "Your Idea is Yours (Always).",
     "argument_text": "We focus on the engineering. Cloud UI does not keep your intellectual property. You are the owner of the idea, the business, and the code. We are the hammer you need to build the structure.",
@@ -173,7 +173,7 @@
     "service4": "Custom Websites",
     "service5": "Digital Transformation Advisory",
     "service6": "Data Analytics",
-    "links_title": "Links",
+    "links_title": "Company",
     "social_media_title": "Follow Us",
     "company_name": "Cloud UI",
     "copyright": "© 2025 cloudui. All rights reserved."

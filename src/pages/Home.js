@@ -28,7 +28,7 @@ const Home = () => {
         <div className="col-12 md:col-6 flex flex-column justify-content-center align-items-center">
           <h1 className="main-title">{t('home.main_title')}</h1>
           <p className="main-subtitle p-3">{t('home.main_subtitle')}</p>
-          <Button label={t('home.main_cta')} className="p-button-lg p-2 mt-3 home-cta-button" rounded onClick={() => window.open('https://forms.gle/FrSYGdgbRD9WU9FF6', '_blank')} />
+          <Button label={t('home.main_cta')} className="p-button-lg p-button-outlined p-button-success mt-3 final-cta-button" onClick={() => window.open('https://forms.gle/FrSYGdgbRD9WU9FF6', '_blank')} />
         </div>
         <div className="col-12 md:col-6">
           <img src={logo} alt="Cloud UI" />

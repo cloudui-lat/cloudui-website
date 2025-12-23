@@ -34,7 +34,11 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-12 md:col-3">
-          <h3>{t('footer.social_media_title')}</h3>
+          <img src={require('../../assets/robothand.png')} alt="Robot Hand" style={{ width: '100%' }} />
+        </div>
+      </div>
+      <div className="grid">
+        <div className="col-12 text-center">
           <div className="social-media-icons">
             <a href="https://instagram.com/cloudui.lat" target="_blank" rel="noreferrer"><i className="pi pi-instagram"></i></a>
             <a href="https://facebook.com/cloudui.lat" target="_blank" rel="noreferrer"><i className="pi pi-facebook"></i></a>
