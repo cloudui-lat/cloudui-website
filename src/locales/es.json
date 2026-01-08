@@ -16,11 +16,7 @@
     "main_cta": "Quiero Empezar Mi Proyecto Hoy",
     "argument_title": "Tu Idea es Tuya (Siempre).",
     "argument_text": "Nos enfocamos en la ingeniería. Cloud UI no se queda con tu propiedad intelectual. Tú eres el dueño de la idea, el negocio y el código. Nosotros somos el martillo que necesitas para construir la estructura.",
-    "what_we_do_title": "Lo Que Hacemos (Para PyMEs, Claro y Concreto)",
-    "who_we_work_for_title": "¿Para Quién Trabajamos?",
-    "who_we_work_for_text": "Ayudamos a PyMEs, emprendedores y negocios establecidos a digitalizarse y crecer.",
-    "how_we_do_it_title": "¿Cómo lo Hacemos?",
-    "how_we_do_it_text": "Tu proyecto necesita más que un diseño bonito, necesita una estructura inteligente.",
+
     "focus_title": "Enfoque",
     "focus_item1_title": "Ideas con Forma",
     "focus_item1_text": "Tienes la idea, pero te falta la estructura. Damos forma técnica a tu concepto para que sea viable y escalable.",
@@ -28,7 +24,7 @@
     "focus_item2_text": "Dejamos tu app o plataforma lista para trabajar desde el primer día. Olvídate de la complejidad y empieza a vender o a operar.",
     "focus_item3_title": "Automatización",
     "focus_item3_text": "Integramos procesos automáticos para que tu negocio haga más con menos. Ahorra tiempo y personal haciendo que la tecnología trabaje por ti.",
-    "final_cta_button": "Hablemos de Tu Próximo Gran Proyecto",
+    "final_cta_button": "Hablemos de Tu Próximo Gran Proyecto"
   },
   "services": {
     "title": "Nuestros Servicios",

@@ -14,13 +14,6 @@
     "main_title": "Your SME idea, made real.",
     "main_subtitle": "At Cloud UI, we bring your ideas to life. We create, design, and automate custom digital platforms. We respect your intellectual property and build intelligent structures that drive your business growth.",
     "main_cta": "I Want to Start My Project Today",
-    "argument_title": "Your Idea is Yours (Always).",
-    "argument_text": "We focus on the engineering. Cloud UI does not keep your intellectual property. You are the owner of the idea, the business, and the code. We are the hammer you need to build the structure.",
-    "what_we_do_title": "What We Do (For SMEs, Clear and Concrete)",
-    "who_we_work_for_title": "Who We Work For",
-    "who_we_work_for_text": "We help SMEs, entrepreneurs, and established businesses to digitize and grow.",
-    "how_we_do_it_title": "How We Do It",
-    "how_we_do_it_text": "Your project needs more than a pretty design, it needs an intelligent structure.",
     "focus_title": "Focus",
     "focus_item1_title": "Shaped Ideas",
     "focus_item1_text": "You have the idea, but you lack the structure. We give technical form to your concept to make it viable and scalable.",
@@ -29,7 +22,7 @@
     "focus_item3_title": "Automation",
     "focus_item3_text": "We integrate automatic processes so that your business does more with less. Save time and staff by making technology work for you.",
     "final_cta_title": "Don't let your idea stay on napkins. Are you ready to see it working?",
-    "final_cta_button": "Let's Talk About Your Next Big Project",
+    "final_cta_button": "Let's Talk About Your Next Big Project"
   },
   "services": {
     "title": "Our Services",

@@ -34,37 +34,8 @@ const Home = () => {
           <img src={logo} alt="Cloud UI" />
         </div>
       </section>
-
-      {/* Section 2: The Main Argument */}
-      <section className="main-argument-section p-5 grid">
-        <div className="col-12 md:col-6">
-          <img src={Image4} alt="Cloud UI" />
-        </div>
-        <div className="col-12 md:col-6 flex flex-column justify-content-center">
-          <Card title={t('home.argument_title')} className="argument-card">
-            <p>{t('home.argument_text')}</p>
-          </Card>
-        </div>
-      </section>
-
       <Divider />
-
-      {/* Section 3: What We Do */}
-      <section className="what-we-do-section p-5">
-         -
-        <div className="grid mt-5">
-          <div className="col-12 md:col-6">
-            <Card title={t('home.who_we_work_for_title')}>
-              <p>{t('home.who_we_work_for_text')}</p>
-            </Card>
-          </div>
-          <div className="col-12 md:col-6">
-            <Card title={t('home.how_we_do_it_title')}>
-              <p>{t('home.how_we_do_it_text')}</p>
-            </Card>
-          </div>
-        </div>
-      </section>
+      
       <section>
         <div className="ideas-section mt-5">
           <h3 className="text-center focus-title">{t('home.focus_title')}</h3>
@@ -76,7 +47,7 @@ const Home = () => {
               </Card>
             </div>
             <div className="col-12 md:col-4">
-.              <Card title={t('home.focus_item2_title')}>
+              .              <Card title={t('home.focus_item2_title')}>
                 <img src={quickstart} alt="Quick Start" className="image-placeholder-small" />
                 <p>{t('home.focus_item2_text')}</p>
               </Card>
@@ -118,12 +89,7 @@ const Home = () => {
           ))}
         </div>
       </section>
-      
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <Divider />
       {/* Section 4: Final Call to Action */}
 
