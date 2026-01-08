@@ -34,7 +34,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-12 md:col-3">
-          <img src={require('../../assets/robothand.png')} alt="Robot Hand" style={{ width: '100%' }} />
+          <h3>{t('footer.about_title')}</h3>
+          <ul>
+           <li><Link to="/contact">{t('nav.contact')}</Link></li>
+          </ul>
         </div>
       </div>
       <div className="grid">

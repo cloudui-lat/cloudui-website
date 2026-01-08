@@ -51,7 +51,7 @@ const Home = () => {
 
       {/* Section 3: What We Do */}
       <section className="what-we-do-section p-5">
-        <h2 className="text-center what-we-do-title">{t('home.what_we_do_title')}</h2>
+         -
         <div className="grid mt-5">
           <div className="col-12 md:col-6">
             <Card title={t('home.who_we_work_for_title')}>
@@ -138,10 +138,7 @@ const Home = () => {
       </section>
       <Divider />
       {/* Section 4: Final Call to Action */}
-      <section className="final-cta-section text-center p-5">
-        <h2>{t('home.final_cta_title')}</h2>
-        <Button label={t('home.final_cta_button')} className="p-button-lg p-button-outlined p-button-success mt-3 final-cta-button" onClick={() => window.open('https://forms.gle/FrSYGdgbRD9WU9FF6', '_blank')} />
-      </section>
+
 
 
       <ScrollTop className="scroll-top-left" />
