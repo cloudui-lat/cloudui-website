@@ -119,18 +119,6 @@ const Home = () => {
         </div>
       </section>
       
-      <section className="what-we-do-section p-5">
-        <div className="mt-5">
-
-          <div className="grid mt-2">
-            <div className="col-12 md:col-6">
-              <Card title={t('home.mission_tittle')}>
-                <p>{t('home.mission_text')}</p>
-              </Card>
-            </div>
-            <div className="col-12 md:col-6">
-              <Card title={t('home.vision_tittle')}>
-                <p>{t('home.vision_text')}</p>
               </Card>
             </div>
           </div>
