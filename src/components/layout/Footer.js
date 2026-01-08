@@ -34,10 +34,6 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-12 md:col-3">
-          <h3>{t('footer.about_title')}</h3>
-          <ul>
-           <li><Link to="/contact">{t('nav.contact')}</Link></li>
-          </ul>
         </div>
       </div>
       <div className="grid">
@@ -53,6 +49,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom text-center mt-5">
         <h1>{t('footer.company_name')}</h1>
+        <h1>{t('footer.project')}</h1>        
         <h3>{t('footer.copyright')}</h3>
       </div>
     </footer>
