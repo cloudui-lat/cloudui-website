@@ -14,12 +14,14 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import Layout from './components/layout/Layout';
 import CookieModal from './components/layout/CookieModal';
+import BubbleCursor from './components/BubbleCursor/BubbleCursor';
 
 function App() {
   return (
     <Router>
       <Layout>
         <CookieModal />
+        <BubbleCursor />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services/packages" element={<Packages />} />

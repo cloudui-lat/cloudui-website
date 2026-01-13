@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Menubar } from 'primereact/menubar';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
@@ -10,34 +10,6 @@ import paFlag from '../../assets/pa.png';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const [visibleSubmenu, setVisibleSubmenu] = useState(null);
-
-  const itemRenderer = (item) => {
-    return (
-      <a 
-        href='#!'
-        className="p-menuitem-link" 
-        onMouseEnter={() => setVisibleSubmenu(item.label)}
-        onMouseLeave={() => setVisibleSubmenu(null)}
-        onClick={item.command}
-      >
-        <span className={item.icon} />
-        <span className="p-menuitem-text">{item.label}</span>
-        {item.items && <span className="p-submenu-icon pi pi-angle-down" />}
-        {item.items && visibleSubmenu === item.label && (
-          <ul className="p-submenu-list">
-            {item.items.map((subItem, index) => (
-              <li key={index} className="p-menuitem">
-                <a href='#!' className="p-menuitem-link" onClick={subItem.command}>
-                  <span className="p-menuitem-text">{subItem.label}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        )}
-      </a>
-    );
-  };
 
   const items = [
     {
@@ -48,7 +20,6 @@ const Navbar = () => {
     {
       label: t('nav.services'),
       icon: 'pi pi-fw pi-cog',
-      template: itemRenderer,
       items: [
         {
           label: t('nav.packages'),
@@ -65,7 +36,6 @@ const Navbar = () => {
       icon: 'pi pi-fw pi-info-circle',
       command: () => { navigate('/about'); },
       visible: false,
-      template: itemRenderer,
       items: [
         {
           label: t('nav.clients'),
