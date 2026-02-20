@@ -10,6 +10,44 @@
     "clients": "Clients",
     "contact_us_button": "Contact Us"
   },
+  "about_us": {
+    "title": "ABOUT",
+    "experience": {
+      "title": "Our Experience",
+      "description_intro": "At Cloud UI, we have practical experience in the design, implementation, and support of technological solutions for companies, supporting organizations in their processes of",
+      "description_highlight": "digitization, automation, and technological modernization"
+    },
+    "support": {
+      "title": "Technical Support and Business Operations",
+      "description_intro": "We have provided",
+      "description_highlight": "comprehensive technical support",
+      "description_outro": "to users and businesses under structured service models, ensuring operational continuity and efficient response times.",
+      "items": [
+        "Ticket management and resolution under SLA",
+        "Level 1 and Level 2 technical support (hardware, software, and networking)",
+        "B2B support and remote assistance",
+        "Incident and solution documentation",
+        "Continuous improvement based on service metrics"
+      ]
+    },
+    "infrastructure": {
+      "title": "Infrastructure, Cloud and Systems",
+      "description_intro": "We participate in the",
+      "description_highlight": "implementation, administration, and optimization of technological infrastructure",
+      "description_outro": "supporting migration and modernization processes.",
+      "items": [
+        "Management of Windows environments and Active Directory",
+        "User, access, and device management",
+        "Support for collaborative tools (Office 365, Google Workspace)",
+        "Virtualization, remote desktops, and hybrid environments",
+        "Support in cloud migration processes"
+      ]
+    },
+    "images": {
+      "support_alt": "Technical support specialist illustration",
+      "infrastructure_alt": "Cloud infrastructure and migration illustration"
+    }
+  },
   "home": {
     "main_title": "Your SME idea, made real.",
     "main_subtitle": "At Cloud UI, we bring your ideas to life. We create, design, and automate custom digital platforms. We respect your intellectual property and build intelligent structures that drive your business growth.",
@@ -39,8 +77,8 @@
     "title": "Our Services",
     "items": [
       {
-        "title": "Software & Mobile Development",
-        "text": "FinTech and Digital Wallets: Development of mobile applications that offer digital payment solutions, microcredits, and banking services for the large population without access to banking services or with limited access to them.",
+        "title": "Software Development and Digital Solutions",
+        "text": "We have experience supporting software development and digital solutions projects aligned with business goals.\n\n• Backend development and application support\n• Database management and version control\n• Support for development and deployment workflows\n• Requirements validation and post-delivery support",
         "imageKey": "software_mobile_development"
       },
       {
@@ -49,8 +87,8 @@
         "imageKey": "cloud_migration"
       },
       {
-        "title": "Automation(Power Automate & n8n)",
-        "text": "Import/export process automation: Creation of workflows that automatically extract data from shipping invoices and packing lists to complete complex customs declaration forms required by authorities such as DIAN (Colombia) or SAT (Mexico).",
+        "title": "Process Automation and Improvement",
+        "text": "We help companies organize, document, and automate their technology processes, reducing errors and increasing efficiency. • Creation of knowledge bases (Knowledge Base) • Documentation of technical and operational processes • Standardization of support, onboarding, and offboarding flows • Optimization of internal and operational processes",
         "imageKey": "automation"
       },
       {
@@ -59,9 +97,14 @@
         "imageKey": "custom_websites"
       },
       {
-        "title": "Digital Transformation Advisory",
-        "text": "Omnichannel Strategy for Traditional Retailers: Advising large family-owned department store chains on how to integrate their physical store inventory, operations, and loyalty programs with a robust e-commerce platform to compete with Mercado Libre and Amazon.",
+        "title": "Digital Transformation and Guidance",
+        "text": "Beyond technology, we support companies in their digital adoption process, communicating solutions clearly and with a results-oriented approach.\n\n• Technology advisory for SMEs\n• Communication between technical and non-technical teams\n• Focus on productivity, scalability, and efficiency\n• Continuous support before and after implementation",
         "imageKey": "digital_transformation_advisory"
+      },
+      {
+        "title": "Cybersecurity and Best Practices",
+        "text": "We implement practical cybersecurity measures focused on protecting operations and raising user awareness.\n\n• Risk and vulnerability identification\n• Cybersecurity training and awareness\n• Best practices based on recognized standards\n• Reduction of operational and technological risks",
+        "imageKey": "cybersecurity_best_practices"
       },
       {
         "title": "Data Analytics",

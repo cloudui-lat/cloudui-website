@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import CustomCursor from '../effects/CustomCursor';
 
 const Layout = ({ children }) => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="layout min-h-screen flex flex-col">
+      <CustomCursor />
       <Navbar />
       <main className="flex-grow">{children}</main>
       <Footer />

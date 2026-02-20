@@ -14,3 +14,27 @@
   @tailwind components;
   @tailwind utilities;
 }
+
+/* Global custom cursor for all states */
+*,
+*::before,
+*::after,
+*:hover,
+*:active,
+*:focus,
+*:focus-visible,
+*:disabled {
+  cursor: auto !important;
+}
+
+.custom-cursor-enabled,
+.custom-cursor-enabled *,
+.custom-cursor-enabled *::before,
+.custom-cursor-enabled *::after,
+.custom-cursor-enabled *:hover,
+.custom-cursor-enabled *:active,
+.custom-cursor-enabled *:focus,
+.custom-cursor-enabled *:focus-visible,
+.custom-cursor-enabled *:disabled {
+  cursor: none !important;
+}

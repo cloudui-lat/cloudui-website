@@ -164,6 +164,10 @@
     animation: fadeInUp 1s;
 }
 
+.service-card p {
+    white-space: pre-line;
+}
+
 .image-placeholder-small {
     background-color: #ccc;
     width: 100%;

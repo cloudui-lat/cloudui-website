@@ -10,6 +10,44 @@
     "clients": "Clientes",
     "contact_us_button": "Contáctanos"
   },
+  "about_us": {
+    "title": "SOBRE NOSOTROS",
+    "experience": {
+      "title": "Nuestra Experiencia",
+      "description_intro": "En Cloud UI contamos con experiencia práctica en el diseño, implementación y soporte de soluciones tecnológicas para empresas, acompañando a organizaciones en sus procesos de",
+      "description_highlight": "digitalización, automatización y modernización tecnológica"
+    },
+    "support": {
+      "title": "Soporte Técnico y Operación Empresarial",
+      "description_intro": "Hemos brindado",
+      "description_highlight": "soporte técnico integral",
+      "description_outro": "a usuarios y empresas bajo esquemas de atención estructurados, asegurando continuidad operativa y tiempos de respuesta eficientes.",
+      "items": [
+        "Gestión y resolución de tickets bajo SLA",
+        "Soporte técnico nivel 1 y 2 (hardware, software y redes)",
+        "Atención B2B y soporte remoto",
+        "Documentación de incidencias y soluciones",
+        "Mejora continua basada en métricas de servicio"
+      ]
+    },
+    "infrastructure": {
+      "title": "Infraestructura, Cloud y Sistemas",
+      "description_intro": "Participamos en la",
+      "description_highlight": "implementación, administración y optimización de infraestructura tecnológica",
+      "description_outro": "apoyando procesos de migración y modernización.",
+      "items": [
+        "Administración de entornos Windows y Active Directory",
+        "Gestión de usuarios, accesos y dispositivos",
+        "Soporte a herramientas colaborativas (Office 365, Google Workspace)",
+        "Virtualización, escritorios remotos y entornos híbridos",
+        "Apoyo en procesos de migración a la nube"
+      ]
+    },
+    "images": {
+      "support_alt": "Ilustración de especialista de soporte técnico",
+      "infrastructure_alt": "Ilustración de infraestructura cloud y migración"
+    }
+  },
   "home": {
     "main_title": "Tu idea PyME, hecha realidad.",
     "main_subtitle": "En Cloud UI hacemos posible que tu idea cobre vida. Creamos, diseñamos y automatizamos plataformas digitales a tu medida. Respetamos tu propiedad intelectual y creamos estructuras inteligentes que impulsaran el crecimiento de tu negocio.",
@@ -40,8 +78,8 @@
     "title": "Nuestros Servicios",
     "items": [
       {
-        "title": "Desarrollo de Software y Móvil",
-        "text": "FinTech y Monederos Digitales: Desarrollo de aplicaciones móviles que ofrecen soluciones de pago digital, microcréditos y servicios bancarios para la gran población sin acceso a servicios bancarios o con acceso limitado a ellos.",
+        "title": "Desarrollo de Software y Soluciones Digitales",
+        "text": "Contamos con experiencia apoyando proyectos de desarrollo de software y soluciones digitales alineadas a objetivos de negocio.\n\n• Desarrollo backend y soporte a aplicaciones\n• Gestión de bases de datos y control de versiones\n• Soporte a flujos de desarrollo y despliegue\n• Validación de requerimientos y soporte post-entrega",
         "imageKey": "software_mobile_development"
       },
       {
@@ -50,8 +88,8 @@
         "imageKey": "cloud_migration"
       },
       {
-        "title": "Automatización(Power Automate & n8n)",
-        "text": "Automatización de procesos de importación/exportación: Creación de flujos de trabajo que extraen automáticamente datos de facturas de envío y listas de empaque para completar formularios complejos de declaración aduanera requeridos por autoridades como la DIAN (Colombia) o el SAT (México).",
+        "title": "Automatización y Mejora de Procesos",
+        "text": "Ayudamos a empresas a ordenar, documentar y automatizar sus procesos tecnológicos, reduciendo errores y aumentando eficiencia.\n\n• Creación de bases de conocimiento (Knowledge Base)\n• Documentación de procesos técnicos y operativos\n• Estandarización de flujos de soporte, onboarding y offboarding\n• Optimización de procesos internos y operativos",
         "imageKey": "automation"
       },
       {
@@ -60,9 +98,14 @@
         "imageKey": "custom_websites"
       },
       {
-        "title": "Asesoría en Transformación Digital",
-        "text": "Estrategia Omnicanal para Minoristas Tradicionales: Asesoramiento a grandes cadenas familiares de tiendas departamentales sobre cómo integrar el inventario, las operaciones y los programas de fidelización de sus tiendas físicas con una sólida plataforma de comercio electrónico para competir con Mercado Libre y Amazon.",
+        "title": "Transformación Digital y Acompañamiento",
+        "text": "Más allá de la tecnología, acompañamos a las empresas en su proceso de adopción digital, comunicando soluciones de forma clara y orientada a resultados.\n\n• Asesoría tecnológica para PYMEs\n• Comunicación entre áreas técnicas y no técnicas\n• Enfoque en productividad, escalabilidad y eficiencia\n• Soporte continuo antes y después de la implementación",
         "imageKey": "digital_transformation_advisory"
+      },
+      {
+        "title": "Ciberseguridad y Buenas Prácticas",
+        "text": "Implementamos medidas prácticas de seguridad informática, enfocadas en la protección de la operación y concientización de usuarios.\n\n• Identificación de riesgos y vulnerabilidades\n• Capacitación y concientización en ciberseguridad\n• Buenas prácticas basadas en estándares reconocidos\n• Reducción de riesgos operativos y tecnológicos",
+        "imageKey": "cybersecurity_best_practices"
       },
       {
         "title": "Analítica de Datos",
