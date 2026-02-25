@@ -14,8 +14,101 @@
     "title": "ABOUT",
     "experience": {
       "title": "Our Experience",
-      "description_intro": "At Cloud UI, we have practical experience in the design, implementation, and support of technological solutions for companies, supporting organizations in their processes of",
-      "description_highlight": "digitization, automation, and technological modernization"
+      "intro": "At Cloud UI, we help companies and SMEs design, develop, modernize, and operate technological solutions that optimize processes, improve business control, and enable secure scaling.",
+      "proof": "Our experience is supported by implementations of CRMs, ERPs, web platforms, mobile applications, report automation, cloud solutions, and transactional systems, delivered for sectors such as banking, insurance, logistics, commerce, government, and services.",
+      "sections": [
+        {
+          "title": "Enterprise Platforms (CRM & ERP)",
+          "description": "We design and implement tailor-made enterprise systems aligned with the real operation of your business.",
+          "items": [
+            "Implementation and maintenance of CRM systems for purchasing, inventory, and operational management in financial and commercial companies.",
+            "Development of banking CRMs for credit application management.",
+            "Development of banking CRMs for card activation and management.",
+            "Development of banking CRMs for transaction control and security validations (PCI).",
+            "Implementation of HR CRMs for employee control, vacations, permissions, and internal processes.",
+            "Development of ERPs and logistics systems for port manifest management.",
+            "Development of ERPs and logistics systems for integration with government entities.",
+            "Development of ERPs and logistics systems for customs and commercial information processing.",
+            "These solutions have been implemented for organizations in the banking, insurance, government, and private sectors."
+          ]
+        },
+        {
+          "title": "Process and Reporting Automation",
+          "description": "We optimize your company’s daily operation through automation and data analysis.",
+          "items": [
+            "Automation of financial, operational, and regulatory reports.",
+            "Data extraction from BPM systems and enterprise platforms.",
+            "Generation of statistics for credit settlement.",
+            "Generation of statistics for internal control procedures.",
+            "Generation of statistics for certifications and institutional reports.",
+            "Reduction of manual tasks and improved response times."
+          ]
+        },
+        {
+          "title": "Cloud, Infrastructure, and Scalability",
+          "description": "We implement technological solutions designed to grow with you, using modern and secure infrastructure.",
+          "items": [
+            "Migration of systems to cloud infrastructure (Azure and AWS).",
+            "Development and deployment of applications in cloud environments.",
+            "Architectures based on microservices, containers, and Kubernetes.",
+            "API integration and service modernization (SOAP to REST).",
+            "Platforms with high availability, scalability, and operational control."
+          ]
+        },
+        {
+          "title": "Mobile Applications and Operational Solutions",
+          "description": "We develop mobile applications and platforms connected to enterprise systems.",
+          "items": [
+            "Mobile apps with geolocation for field operations control.",
+            "Application integration with administrative dashboards.",
+            "Digital processing of evidence, forms, and reports.",
+            "Publishing, maintenance, and evolution of production applications."
+          ]
+        },
+        {
+          "title": "Integrations, DevOps, and Continuous Operations",
+          "description": "We ensure solutions work correctly in production.",
+          "items": [
+            "Integration of enterprise systems and external platforms.",
+            "Implementation of deployment pipelines and CI/CD automation.",
+            "Quality control, code analysis, and deployment security.",
+            "Post-implementation support and continuous improvement."
+          ]
+        },
+        {
+          "title": "Technology Support and Business Operations",
+          "description": "We support your company with structured and reliable assistance.",
+          "items": [
+            "Incident management and resolution under SLA.",
+            "Level 1 and Level 2 technical support for platforms and systems.",
+            "B2B support and remote assistance.",
+            "Process, incident, and solution documentation.",
+            "Continuous optimization based on service metrics."
+          ]
+        },
+        {
+          "title": "Security and Best Practices",
+          "description": "We protect your company’s critical information and processes.",
+          "items": [
+            "Implementation of cybersecurity best practices.",
+            "Security validations in financial and transactional systems.",
+            "Reduction of technological and operational risks.",
+            "Security applied to platforms, integrations, and data."
+          ]
+        },
+        {
+          "title": "Digital Transformation and Ongoing Guidance",
+          "description": "At Cloud UI, we do more than implement technology: we accompany you throughout the full process.",
+          "items": [
+            "Technology advisory focused on SMEs and growing companies.",
+            "Clear communication, without unnecessary technical jargon.",
+            "Solutions aligned with productivity, efficiency, and scalability.",
+            "Continuous support before, during, and after each implementation."
+          ]
+        }
+      ],
+      "closing_title": "Customer-oriented closure",
+      "closing_text": "Cloud UI is your technology partner for turning complex processes into clear, secure, and scalable digital solutions adapted to your company’s reality."
     },
     "support": {
       "title": "Technical Support and Business Operations",

@@ -14,8 +14,101 @@
     "title": "SOBRE NOSOTROS",
     "experience": {
       "title": "Nuestra Experiencia",
-      "description_intro": "En Cloud UI contamos con experiencia práctica en el diseño, implementación y soporte de soluciones tecnológicas para empresas, acompañando a organizaciones en sus procesos de",
-      "description_highlight": "digitalización, automatización y modernización tecnológica"
+      "intro": "En Cloud UI ayudamos a empresas y PYMEs a diseñar, desarrollar, modernizar y operar soluciones tecnológicas que optimizan procesos, mejoran el control del negocio y permiten escalar de forma segura.",
+      "proof": "Nuestra experiencia se respalda en la implementación de CRMs, ERPs, plataformas web, aplicaciones móviles, automatización de reportes, soluciones cloud y sistemas transaccionales, desarrollados para sectores como banca, seguros, logística, comercio, gobierno y servicios.",
+      "sections": [
+        {
+          "title": "Plataformas Empresariales (CRM & ERP)",
+          "description": "Diseñamos e implementamos sistemas empresariales a medida, alineados a la operación real de tu negocio.",
+          "items": [
+            "Implementación y mantenimiento de CRMs de compras, inventario y gestión operativa para empresas financieras y comerciales.",
+            "Desarrollo de CRMs bancarios para gestión de solicitudes de crédito.",
+            "Desarrollo de CRMs bancarios para activación y administración de tarjetas.",
+            "Desarrollo de CRMs bancarios para control de transacciones y validaciones de seguridad (PCI).",
+            "Implementación de CRMs de recursos humanos para control de colaboradores, vacaciones, permisos y procesos internos.",
+            "Desarrollo de ERPs y sistemas logísticos para gestión de manifiestos portuarios.",
+            "Desarrollo de ERPs y sistemas logísticos para integración con entidades gubernamentales.",
+            "Desarrollo de ERPs y sistemas logísticos para procesamiento de información aduanera y comercial.",
+            "Estas soluciones han sido implementadas para organizaciones del sector bancario, asegurador, gubernamental y privado."
+          ]
+        },
+        {
+          "title": "Automatización de Procesos y Reportes",
+          "description": "Optimizamos la operación diaria de tu empresa mediante automatización y análisis de datos.",
+          "items": [
+            "Automatización de reportes financieros, operativos y regulatorios.",
+            "Extracción de datos desde sistemas BPM y plataformas empresariales.",
+            "Generación de estadísticas para liquidación de créditos.",
+            "Generación de estadísticas para procedimientos de control interno.",
+            "Generación de estadísticas para certificaciones y reportes institucionales.",
+            "Reducción de tareas manuales y mejora en tiempos de respuesta."
+          ]
+        },
+        {
+          "title": "Cloud, Infraestructura y Escalabilidad",
+          "description": "Implementamos soluciones tecnológicas diseñadas para crecer contigo, utilizando infraestructura moderna y segura.",
+          "items": [
+            "Migración de sistemas a infraestructura cloud (Azure y AWS).",
+            "Desarrollo y despliegue de aplicaciones en entornos cloud.",
+            "Arquitecturas basadas en microservicios, contenedores y Kubernetes.",
+            "Integración de APIs y modernización de servicios (SOAP a REST).",
+            "Plataformas con alta disponibilidad, escalabilidad y control operativo."
+          ]
+        },
+        {
+          "title": "Aplicaciones Móviles y Soluciones Operativas",
+          "description": "Desarrollamos aplicaciones móviles y plataformas conectadas a sistemas empresariales.",
+          "items": [
+            "Apps móviles con geolocalización para control de operaciones en campo.",
+            "Integración de aplicaciones con dashboards administrativos.",
+            "Procesamiento digital de evidencias, formularios y reportes.",
+            "Publicación, mantenimiento y evolución de aplicaciones productivas."
+          ]
+        },
+        {
+          "title": "Integraciones, DevOps y Operación Continua",
+          "description": "Aseguramos que las soluciones funcionen correctamente en producción.",
+          "items": [
+            "Integración de sistemas empresariales y plataformas externas.",
+            "Implementación de pipelines de despliegue y automatización CI/CD.",
+            "Control de calidad, análisis de código y seguridad en despliegues.",
+            "Soporte post-implementación y mejora continua."
+          ]
+        },
+        {
+          "title": "Soporte Tecnológico y Operación Empresarial",
+          "description": "Acompañamos a tu empresa con soporte estructurado y confiable.",
+          "items": [
+            "Gestión y resolución de incidencias bajo SLA.",
+            "Soporte técnico nivel 1 y 2 para plataformas y sistemas.",
+            "Atención B2B y soporte remoto.",
+            "Documentación de procesos, incidencias y soluciones.",
+            "Optimización continua basada en métricas de servicio."
+          ]
+        },
+        {
+          "title": "Seguridad y Buenas Prácticas",
+          "description": "Protegemos la información y los procesos críticos de tu empresa.",
+          "items": [
+            "Implementación de buenas prácticas de ciberseguridad.",
+            "Validaciones de seguridad en sistemas financieros y transaccionales.",
+            "Reducción de riesgos tecnológicos y operativos.",
+            "Seguridad aplicada a plataformas, integraciones y datos."
+          ]
+        },
+        {
+          "title": "Transformación Digital y Acompañamiento",
+          "description": "En Cloud UI no solo implementamos tecnología: te acompañamos en el proceso completo.",
+          "items": [
+            "Asesoría tecnológica enfocada en PYMEs y empresas en crecimiento.",
+            "Comunicación clara, sin tecnicismos innecesarios.",
+            "Soluciones alineadas a productividad, eficiencia y escalabilidad.",
+            "Soporte continuo antes, durante y después de cada implementación."
+          ]
+        }
+      ],
+      "closing_title": "Cierre orientado al cliente",
+      "closing_text": "Cloud UI es tu aliado tecnológico para convertir procesos complejos en soluciones digitales claras, seguras y escalables, adaptadas a la realidad de tu empresa."
     },
     "support": {
       "title": "Soporte Técnico y Operación Empresarial",

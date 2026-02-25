@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+:root {
+  --navbar-height: 80px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,15 +43,21 @@
 
 
 #main-navbar {
-  --navbar-height: 80px;
   height: var(--navbar-height);
 }
 
 .sticky-navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1000; /* Ensure it stays on top of other content */
+  left: 0;
+  right: 0;
+  z-index: 1100;
   width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.layout-main {
+  padding-top: calc(var(--navbar-height) + 0.5rem);
 }
 
 .scroll-top-left .p-scrolltop {

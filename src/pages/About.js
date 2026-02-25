@@ -6,6 +6,7 @@ import './About.css';
 
 const About = () => {
   const { t } = useTranslation();
+  const experienceSections = t('about_us.experience.sections', { returnObjects: true });
   const supportItems = t('about_us.support.items', { returnObjects: true });
   const infrastructureItems = t('about_us.infrastructure.items', { returnObjects: true });
 
@@ -17,10 +18,25 @@ const About = () => {
         <section className="about-section about-section-top">
           <div className="about-text-block">
             <h2>{t('about_us.experience.title')}</h2>
-            <p>
-              {t('about_us.experience.description_intro')}{' '}
-              <strong>{t('about_us.experience.description_highlight')}</strong>.
-            </p>
+            <p>{t('about_us.experience.intro')}</p>
+            <p>{t('about_us.experience.proof')}</p>
+
+            {experienceSections.map((section, index) => (
+              <article key={`${section.title}-${index}`} className="about-experience-section">
+                <h3>{section.title}</h3>
+                <p>{section.description}</p>
+                {section.items?.length > 0 && (
+                  <ul>
+                    {section.items.map((item, itemIndex) => (
+                      <li key={`${section.title}-item-${itemIndex}`}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+              </article>
+            ))}
+
+            <h3>{t('about_us.experience.closing_title')}</h3>
+            <p>{t('about_us.experience.closing_text')}</p>
 
             <h2>{t('about_us.support.title')}</h2>
             <p>
