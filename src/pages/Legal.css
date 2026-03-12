@@ -1,0 +1,36 @@
+.legal-page {
+  padding: 4rem 1rem;
+  color: #1f1f1f;
+}
+
+.legal-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.legal-container h1 {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  margin-bottom: 1rem;
+  color: #312B52;
+}
+
+.legal-subtitle {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #3d355e;
+}
+
+.legal-container p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.legal-container ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.legal-container li {
+  margin-bottom: 0.5rem;
+}

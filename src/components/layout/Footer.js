@@ -5,16 +5,28 @@ import './Footer.css';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const legalLinks = [
+    { slug: 'trust-center', labelKey: 'footer.legal_trust_center' },
+    { slug: 'privacy-policy', labelKey: 'footer.legal_privacy_policy' },
+    { slug: 'cookie-preferences', labelKey: 'footer.legal_cookie_preferences' },
+    { slug: 'data-source-attribution', labelKey: 'footer.legal_data_source_attribution' },
+    { slug: 'accessibility-statement', labelKey: 'footer.legal_accessibility_statement' },
+    { slug: 'terms-of-use', labelKey: 'footer.legal_terms_of_use' },
+    { slug: 'security-policy', labelKey: 'footer.legal_security_policy' },
+    { slug: 'quality-policy', labelKey: 'footer.legal_quality_policy' },
+    { slug: 'warranty-policy', labelKey: 'footer.legal_warranty_policy' },
+    { slug: 'faq', labelKey: 'footer.legal_faq' }
+  ];
 
   return (
     <footer className="footer-container">
       <div className="grid">
-        <div className="col-12 md:col-3">
+        <div className="col-12 md:col-6 lg:col-2">
           <h3>{t('footer.contact_title')}</h3>
           <p><i className="pi pi-envelope"></i> <a href="mailto:info@cloudui.com">{t('footer.email')}</a></p>
           <p><i className="pi pi-map-marker"></i> {t('footer.location')}</p>
         </div>
-        <div className="col-12 md:col-3">
+        <div className="col-12 md:col-6 lg:col-2">
           <h3>{t('footer.services_title')}</h3>
           <ul>
             <li>{t('footer.service1')}</li>
@@ -25,7 +37,7 @@ const Footer = () => {
             <li>{t('footer.service6')}</li>
           </ul>
         </div>
-        <div className="col-12 md:col-3">
+        <div className="col-12 md:col-6 lg:col-2">
           <h3>{t('footer.links_title')}</h3>
           <ul>
             <li><Link to="/">{t('nav.home')}</Link></li>
@@ -33,7 +45,19 @@ const Footer = () => {
             <li><Link to="/contact">{t('nav.contact')}</Link></li>
           </ul>
         </div>
-        <div className="col-12 md:col-3">
+        <div className="col-12 md:col-6 lg:col-2">
+          <h3>{t('footer.legal_title')}</h3>
+          <ul>
+            {legalLinks.map((item) => (
+              <li key={item.slug}>
+                <Link className="footer-link" to={`/legal/${item.slug}`}>
+                  {t(item.labelKey)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="col-12 md:col-6 lg:col-4">
           <img src={require('../../assets/robothand.png')} alt="Robot Hand" style={{ width: '100%' }} />
         </div>
       </div>

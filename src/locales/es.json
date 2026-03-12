@@ -311,9 +311,194 @@
     "service5": "Asesoría en Transformación Digital",
     "service6": "Analítica de Datos",
     "links_title": "Compañía",
+    "legal_title": "Centro de Confianza",
+    "legal_trust_center": "Centro de Confianza",
+    "legal_privacy_policy": "Política de Privacidad",
+    "legal_cookie_preferences": "Preferencias de Cookies",
+    "legal_data_source_attribution": "Atribución de Fuente de Datos",
+    "legal_accessibility_statement": "Declaración de Accesibilidad",
+    "legal_terms_of_use": "Términos de Uso",
+    "legal_security_policy": "Política de Seguridad",
+    "legal_quality_policy": "Política de Calidad",
+    "legal_warranty_policy": "Política de Garantía",
+    "legal_faq": "Preguntas Frecuentes",
     "social_media_title": "Síguenos",
     "company_name": "Cloud UI",
     "copyright": "© 2025 cloudui. Todos los derechos reservados."
+  },
+  "legal": {
+    "loading": "Cargando contenido...",
+    "not_found_title": "Contenido no disponible",
+    "not_found_description": "La página solicitada no está disponible.",
+    "sections": [
+      {
+        "slug": "trust-center",
+        "title": "CENTRO DE CONFIANZA",
+        "subtitle": "Centro de Confianza – Cloud UI",
+        "description": [
+          "En Cloud UI creemos que la tecnología debe construirse sobre tres pilares: seguridad, transparencia y propiedad del cliente.",
+          "Este Trust Center explica cómo protegemos la información, cómo trabajamos y cuáles son nuestros compromisos legales y éticos conforme a la Ley 81 de 2019 sobre Protección de Datos Personales de la República de Panamá y demás normativas aplicables.",
+          "OPCIONES DE PRIVACIDAD"
+        ],
+        "list": [
+          "Solicitar acceso a sus datos personales.",
+          "Solicitar corrección de datos inexactos.",
+          "Solicitar eliminación de sus datos.",
+          "Limitar el tratamiento.",
+          "Oponerse al uso de sus datos para fines comerciales.",
+          "Solicitar portabilidad de datos cuando aplique.",
+          "Para ejercer sus derechos puede escribir a: info@cloudui.lat"
+        ]
+      },
+      {
+        "slug": "privacy-policy",
+        "title": "POLÍTICA DE PRIVACIDAD",
+        "subtitle": "Última actualización: 2026",
+        "description": [
+          "Responsable del tratamiento: Cloud UI, Ciudad de Panamá, Panamá. Correo: info@cloudui.lat",
+          "Datos que recopilamos:",
+          "Finalidad del tratamiento: responder consultas y cotizaciones, gestionar propuestas comerciales, ejecutar contratos, coordinar reuniones, mejorar la experiencia del usuario y cumplir obligaciones legales.",
+          "Base legal: consentimiento del titular, ejecución contractual, cumplimiento de obligación legal.",
+          "Conservación: los datos se conservarán únicamente durante el tiempo necesario para cumplir la finalidad para la cual fueron recopilados o según lo exija la legislación vigente.",
+          "Transferencias: podemos utilizar proveedores de hosting, herramientas de analítica o servicios tecnológicos necesarios para la operación del sitio o ejecución de proyectos. En caso de transferencia internacional de datos, se adoptarán medidas razonables de protección conforme a la normativa aplicable.",
+          "Cloud UI no vende ni alquila datos personales."
+        ],
+        "list": [
+          "Nombre y apellido",
+          "Correo electrónico",
+          "Teléfono",
+          "Empresa",
+          "Información enviada mediante formularios",
+          "Dirección IP",
+          "Datos de navegación",
+          "Información técnica del dispositivo"
+        ]
+      },
+      {
+        "slug": "cookie-preferences",
+        "title": "PREFERENCIAS DE COOKIES",
+        "description": [
+          "Este sitio puede utilizar:",
+          "El usuario puede aceptar, rechazar o configurar cookies desde el aviso correspondiente o desde la configuración de su navegador."
+        ],
+        "list": [
+          "Cookies esenciales (funcionamiento del sitio)",
+          "Cookies analíticas",
+          "Cookies funcionales"
+        ]
+      },
+      {
+        "slug": "data-source-attribution",
+        "title": "ATRIBUCIÓN DE FUENTE DE DATOS",
+        "description": [
+          "Cloud UI puede utilizar servicios de terceros para:",
+          "Toda integración tecnológica forma parte del alcance acordado contractualmente con cada cliente."
+        ],
+        "list": [
+          "Analítica web",
+          "Infraestructura en la nube",
+          "Integraciones API solicitadas por el cliente"
+        ]
+      },
+      {
+        "slug": "accessibility-statement",
+        "title": "DECLARACIÓN DE ACCESIBILIDAD",
+        "description": [
+          "Cloud UI procura que su sitio web cumpla con buenas prácticas de accesibilidad digital mediante:",
+          "Si detecta alguna barrera de accesibilidad puede escribir a info@cloudui.lat"
+        ],
+        "list": [
+          "Diseño responsive",
+          "Compatibilidad con navegadores modernos",
+          "Uso adecuado de contraste",
+          "Estructura semántica adecuada"
+        ]
+      },
+      {
+        "slug": "terms-of-use",
+        "title": "TÉRMINOS DE USO",
+        "description": [
+          "El acceso y uso de este sitio implica la aceptación de estos términos.",
+          "El contenido es informativo y puede modificarse sin previo aviso.",
+          "La contratación de servicios se formaliza por escrito.",
+          "Está prohibida la reproducción total o parcial del contenido sin autorización expresa.",
+          "Cloud UI no se responsabiliza por daños derivados del uso del sitio.",
+          "Jurisdicción: República de Panamá.",
+          "CÓDIGO DE CONDUCTA",
+          "Cloud UI se compromete a:"
+        ],
+        "list": [
+          "Actuar con integridad profesional.",
+          "Proteger la información confidencial.",
+          "Respetar la propiedad intelectual del cliente.",
+          "No reclamar derechos sobre ideas compartidas por el cliente.",
+          "Cumplir la legislación vigente en Panamá.",
+          "Rechazar prácticas de corrupción o conflicto de interés."
+        ]
+      },
+      {
+        "slug": "security-policy",
+        "title": "POLÍTICA DE SEGURIDAD",
+        "description": [
+          "Aplicamos medidas razonables de seguridad como:",
+          "Aunque implementamos medidas de protección, ningún sistema es completamente inmune a riesgos externos."
+        ],
+        "list": [
+          "Control de accesos internos",
+          "Autenticación segura",
+          "Buenas prácticas de desarrollo",
+          "Revisión y pruebas internas (QA)",
+          "Gestión de incidentes conforme a SLA"
+        ]
+      },
+      {
+        "slug": "quality-policy",
+        "title": "POLÍTICA DE CALIDAD",
+        "description": [
+          "Todos los proyectos siguen un proceso estructurado que incluye:",
+          "Nuestro objetivo es entregar soluciones funcionales, estables y alineadas al alcance acordado."
+        ],
+        "list": [
+          "Validación de requerimientos",
+          "Estimación formal",
+          "Desarrollo controlado",
+          "Pruebas internas (QA)",
+          "Revisión del cliente",
+          "Reunión de cierre"
+        ]
+      },
+      {
+        "slug": "warranty-policy",
+        "title": "POLÍTICA DE GARANTÍA",
+        "description": [
+          "Proyectos estándar: 1 mes de garantía.",
+          "Proyectos complejos: hasta 3 meses.",
+          "Incluye corrección de errores atribuibles al desarrollo inicial.",
+          "No incluye:",
+          "El mantenimiento posterior se ofrece mediante modalidad de bolsa de horas o contrato independiente."
+        ],
+        "list": [
+          "Cambios fuera del alcance original",
+          "Modificaciones realizadas por terceros",
+          "Fallos provocados por servicios externos"
+        ]
+      },
+      {
+        "slug": "faq",
+        "title": "PREGUNTAS FRECUENTES",
+        "description": [
+          "Respuestas a las preguntas más comunes sobre trabajar con Cloud UI."
+        ],
+        "list": [
+          "¿Cloud UI se queda con mi idea? No. La propiedad intelectual pertenece al cliente, salvo acuerdo escrito distinto.",
+          "¿Pueden firmar un NDA? Sí, antes de compartir información sensible.",
+          "¿El dominio queda a nombre del cliente? Sí, salvo que se acuerde algo diferente por escrito.",
+          "¿Ofrecen soporte posterior al proyecto? Sí, bajo modalidad SLA o bolsa de horas.",
+          "¿Venden mis datos personales? No.",
+          "¿Puedo solicitar la eliminación de mis datos? Sí, escribiendo a info@cloudui.lat."
+        ]
+      }
+    ]
   },
   "cookies": {
     "title": "Política de Cookies",

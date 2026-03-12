@@ -310,9 +310,194 @@
     "service5": "Digital Transformation Advisory",
     "service6": "Data Analytics",
     "links_title": "Company",
+    "legal_title": "Trust Center",
+    "legal_trust_center": "Trust Center",
+    "legal_privacy_policy": "Privacy Policy",
+    "legal_cookie_preferences": "Cookie Preferences",
+    "legal_data_source_attribution": "Data Source Attribution",
+    "legal_accessibility_statement": "Accessibility Statement",
+    "legal_terms_of_use": "Terms of Use",
+    "legal_security_policy": "Security Policy",
+    "legal_quality_policy": "Quality Policy",
+    "legal_warranty_policy": "Warranty Policy",
+    "legal_faq": "Frequently Asked Questions",
     "social_media_title": "Follow Us",
     "company_name": "Cloud UI",
     "copyright": "© 2025 cloudui. All rights reserved."
+  },
+  "legal": {
+    "loading": "Loading content...",
+    "not_found_title": "Content not found",
+    "not_found_description": "The page you are looking for is not available.",
+    "sections": [
+      {
+        "slug": "trust-center",
+        "title": "TRUST CENTER",
+        "subtitle": "Trust Center – Cloud UI",
+        "description": [
+          "At Cloud UI we believe that technology should be built on three pillars: security, transparency, and customer ownership.",
+          "This Trust Center explains how we protect information, how we work, and what our legal and ethical commitments are in accordance with Law 81 of 2019 on Personal Data Protection of the Republic of Panama and other applicable regulations.",
+          "PRIVACY CHOICES"
+        ],
+        "list": [
+          "Request access to your personal data.",
+          "Request correction of inaccurate data.",
+          "Request deletion of your data.",
+          "Limit processing.",
+          "Object to the use of your data for commercial purposes.",
+          "Request data portability when applicable.",
+          "To exercise your rights you may write to: info@cloudui.lat"
+        ]
+      },
+      {
+        "slug": "privacy-policy",
+        "title": "PRIVACY POLICY",
+        "subtitle": "Last updated: 2026",
+        "description": [
+          "Data Controller: Cloud UI, Panama City, Panama. Email: info@cloudui.lat",
+          "Data We Collect:",
+          "Purpose of Processing: respond to inquiries and quotations, manage commercial proposals, execute contracts, coordinate meetings, improve user experience, and comply with legal obligations.",
+          "Legal Basis: data subject consent, contractual execution, compliance with legal obligations.",
+          "Retention: data will only be retained for the time necessary to fulfill the purpose for which it was collected or as required by applicable legislation.",
+          "Transfers: we may use hosting providers, analytics tools, or technological services necessary for the operation of the website or the execution of projects. In the event of international data transfers, reasonable protection measures will be adopted in accordance with applicable regulations.",
+          "Cloud UI does not sell or rent personal data."
+        ],
+        "list": [
+          "First and last name",
+          "Email address",
+          "Phone number",
+          "Company",
+          "Information submitted through forms",
+          "IP address",
+          "Browsing data",
+          "Technical device information"
+        ]
+      },
+      {
+        "slug": "cookie-preferences",
+        "title": "COOKIE PREFERENCES",
+        "description": [
+          "This site may use the following types of cookies:",
+          "The user may accept, reject, or configure cookies from the corresponding notice or from their browser settings."
+        ],
+        "list": [
+          "Essential cookies (site functionality)",
+          "Analytics cookies",
+          "Functional cookies"
+        ]
+      },
+      {
+        "slug": "data-source-attribution",
+        "title": "DATA SOURCE ATTRIBUTION",
+        "description": [
+          "Cloud UI may use third-party services for:",
+          "All technological integrations are part of the scope contractually agreed upon with each client."
+        ],
+        "list": [
+          "Web analytics",
+          "Cloud infrastructure",
+          "API integrations requested by the client"
+        ]
+      },
+      {
+        "slug": "accessibility-statement",
+        "title": "ACCESSIBILITY STATEMENT",
+        "description": [
+          "Cloud UI aims to ensure its website follows good digital accessibility practices through:",
+          "If you detect any accessibility barrier you may write to info@cloudui.lat"
+        ],
+        "list": [
+          "Responsive design",
+          "Compatibility with modern browsers",
+          "Proper contrast usage",
+          "Proper semantic structure"
+        ]
+      },
+      {
+        "slug": "terms-of-use",
+        "title": "TERMS OF USE",
+        "description": [
+          "Access and use of this site implies acceptance of these terms.",
+          "The content is informational and may be modified without prior notice.",
+          "The contracting of services is formalized in writing.",
+          "Total or partial reproduction of the content without express authorization is prohibited.",
+          "Cloud UI is not responsible for damages resulting from the use of the site.",
+          "Jurisdiction: Republic of Panama.",
+          "CODE OF CONDUCT",
+          "Cloud UI commits to:"
+        ],
+        "list": [
+          "Act with professional integrity.",
+          "Protect confidential information.",
+          "Respect the client's intellectual property.",
+          "Not claim rights over ideas shared by the client.",
+          "Comply with current legislation in Panama.",
+          "Reject corruption practices or conflicts of interest."
+        ]
+      },
+      {
+        "slug": "security-policy",
+        "title": "SECURITY POLICY",
+        "description": [
+          "We apply reasonable security measures such as:",
+          "Although we implement protection measures, no system is completely immune to external risks."
+        ],
+        "list": [
+          "Internal access control",
+          "Secure authentication",
+          "Development best practices",
+          "Internal review and testing (QA)",
+          "Incident management according to SLA"
+        ]
+      },
+      {
+        "slug": "quality-policy",
+        "title": "QUALITY POLICY",
+        "description": [
+          "All projects follow a structured process that includes:",
+          "Our objective is to deliver functional, stable solutions aligned with the agreed scope."
+        ],
+        "list": [
+          "Requirements validation",
+          "Formal estimation",
+          "Controlled development",
+          "Internal testing (QA)",
+          "Client review",
+          "Closing meeting"
+        ]
+      },
+      {
+        "slug": "warranty-policy",
+        "title": "WARRANTY POLICY",
+        "description": [
+          "Standard projects: 1 month warranty.",
+          "Complex projects: up to 3 months.",
+          "Includes correction of errors attributable to the initial development.",
+          "Does not include:",
+          "Subsequent maintenance is offered through a time-bank model or independent contract."
+        ],
+        "list": [
+          "Changes outside the original scope",
+          "Modifications made by third parties",
+          "Failures caused by external services"
+        ]
+      },
+      {
+        "slug": "faq",
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "description": [
+          "Answers to the most common questions about working with Cloud UI."
+        ],
+        "list": [
+          "Does Cloud UI keep my idea? No. Intellectual property belongs to the client, unless otherwise agreed in writing.",
+          "Can you sign an NDA? Yes, before sharing sensitive information.",
+          "Will the domain be registered under the client's name? Yes, unless something different is agreed in writing.",
+          "Do you offer support after the project? Yes, under an SLA model or hourly package.",
+          "Do you sell my personal data? No.",
+          "Can I request deletion of my data? Yes, by writing to info@cloudui.lat."
+        ]
+      }
+    ]
   },
   "cookies": {
     "title": "Cookie Policy",

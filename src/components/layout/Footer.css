@@ -21,6 +21,11 @@
     text-decoration: none;
 }
 
+.footer-container ul li a:hover,
+.footer-container ul li a:focus {
+    text-decoration: underline;
+}
+
 .footer-container .social-media-icons a i {
     font-size: 40px;
     padding-left: 5px;

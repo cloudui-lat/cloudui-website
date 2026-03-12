@@ -13,6 +13,7 @@ import HourPack from './pages/HourPack';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import Legal from './pages/Legal';
 import Layout from './components/layout/Layout';
 import CookieModal from './components/layout/CookieModal';
 
@@ -23,12 +24,14 @@ function App() {
         <CookieModal />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Packages />} />
           <Route path="/services/packages" element={<Packages />} />
           <Route path="/services/hour-pack" element={<HourPack />} />
           <Route path="/about" element={<About />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/legal/:slug" element={<Legal />} />
         </Routes>
       </Layout>
     </Router>
